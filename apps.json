@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "store": {"name":"ROCKS App","versionName":"1.0.0","versionCode":1},
+  "apps": [
+    {
+      "id":"rocks-downloader",
+      "name":"ROCKS Downloader",
+      "subtitle":"روكس داونلودر",
+      "category":"apps",
+      "summary":"الفيديو والصوت، بالجودة التي تختارها.",
+      "description":"برنامج تحميل بواجهة عربية يجمع تنزيل الفيديو والصوت، اختيار الجودة، وتنظيم المهام في قائمة واحدة. يعمل بمحرك yt-dlp مع FFmpeg لدمج الفيديو والصوت وتحويل الملفات داخل الهاتف.",
+      "versionName":"1.9.5", "versionCode":18,
+      "packageName":"com.rocks.downloader", "minSdk":29, "android":"Android 10+",
+      "size":175327044,
+      "sha256":"6f552d89f0268e05e3636468cb0434ed0999caabe6c7eadfc81ff6654bfb7b45",
+      "certificateSha256":"4c2713461f26ed002294f7df5698f9309eb2e12feefe461a57805e30ca6b15a6",
+      "downloadUrl":"https://github.com/7fp9/my-apps/releases/download/rocks-downloader-v1.9.5/ROCKS-Downloader-1.9.5.apk",
+      "releaseUrl":"https://github.com/7fp9/my-apps/releases/tag/rocks-downloader-v1.9.5",
+      "icon":"downloader.png", "accent":"#b59aff", "badge":"تطبيق التحميل",
+      "features":[
+        {"title":"جودة تناسبك","text":"اختيار تلقائي أو 360p و480p و720p و1080p و1440p وحتى 4K، بحسب الجودات المتاحة في الفيديو الأصلي."},
+        {"title":"فيديو وصوت","text":"تنزيل MP4 مع الصوت، أو تحويل الصوت إلى MP3. يتوفر خيار إضافة صورة الغلاف للصوت عندما يتيحها المصدر."},
+        {"title":"قائمة مهام منظمة","text":"تنزيل الروابط بالتتابع، إلغاء المهام، ومتابعة تقدم كل ملف. يعالج الرابط فيديو واحدًا؛ لا ينزّل قائمة التشغيل كاملة."},
+        {"title":"تحميل في الوقت المناسب","text":"بدء فوري أو تأجيل 10 أو 30 أو 60 دقيقة، مع خيارات الجدولة المتاحة داخل البرنامج."},
+        {"title":"مشاركة الرابط مباشرة","text":"أرسل رابط الفيديو إلى البرنامج من قائمة المشاركة في التطبيقات الأخرى بدل نسخه يدويًا."},
+        {"title":"ملفاتك وسجلّك","text":"حفظ الملفات في مجلد Download/ROCKS وفتحها من سجل التنزيلات، مع إشعار أثناء التحميل في الخلفية."},
+        {"title":"واجهة على ذوقك","text":"سمات داكنة وملونة وAMOLED، وملف شخصي محلي للاسم والصورة والخلفية والملاحظات."},
+        {"title":"تحديث محرك التحميل","text":"فحص تحديثات yt-dlp وتحديث المحرك من داخل البرنامج لتحسين التوافق مع تغييرات المواقع."},
+        {"title":"نظام نقاط","text":"يتضمن البرنامج رصيدًا للتحميل يتجدد بمرور الوقت وخيار إعلان مكافأة؛ تظهر التفاصيل داخل البرنامج."}
+      ],
+      "platforms":["YouTube","TikTok","Instagram","Facebook","X / Twitter","Vimeo","Dailymotion","SoundCloud","Reddit","Twitch"],
+      "platformNote":"هذه أمثلة لمواقع يدعمها محرك yt-dlp المستخدم في البرنامج. نجاح التحميل يعتمد على الرابط وتغييرات الموقع والجودة المتاحة؛ بعض المحتوى قد يتطلب تسجيل دخول ولا يتاح من هذه النسخة.",
+      "changesTitle":"المتوفر في الإصدار 1.9.5",
+      "changes":["اختيار جودة الفيديو والصوت من واجهة عربية.","دمج الوسائط وتحويل الصوت بواسطة FFmpeg داخل الهاتف.","تنظيم التنزيلات وجدولتها ومتابعتها في الخلفية.","تخصيص السمة والملف الشخصي وتحديث محرك التحميل."]
+    },
+    {
+      "id":"r4s-coffin",
+      "name":"تابوت آندي وليلي",
+      "subtitle":"R4S Coffin — النسخة العربية",
+      "category":"games",
+      "summary":"نسختك العربية، الآن على أندرويد.",
+      "description":"نسخة R4S Coffin Arabic Android التي حوّلتها لتعمل على هواتف أندرويد. تُعرض اللعبة بالعربية وتفتح في الوضع الأفقي. ملف التثبيت هنا هو إصدار v6 الذي نشرته على GitHub.",
+      "versionName":"6.0", "versionCode":6,
+      "packageName":"com.r4s.coffin.arabic", "minSdk":26, "android":"Android 8+",
+      "size":489900807,
+      "sha256":"b025e7eb05333ca8055e462d6228ebe15223b6d777ffdbdd6c86aea9f2ba371f",
+      "certificateSha256":"bdd67b273a6d4523524ed08e63001fe74d1f74a91f4525bbe2606a75a2427db3",
+      "downloadUrl":"https://github.com/7fp9/my-apps/releases/download/r4s-coffin-arabic-android-v6/R4S-Coffin-Arabic-Android-v6.apk",
+      "releaseUrl":"https://github.com/7fp9/my-apps/releases/tag/r4s-coffin-arabic-android-v6",
+      "icon":"coffin.png", "accent":"#ee9f7a", "badge":"لعبة بالعربية",
+      "features":[
+        {"title":"نسخة عربية","text":"النسخة التي جهزتها تحمل اسم تابوت آندي وليلي — عربي."},
+        {"title":"على هاتفك","text":"حزمة APK لأندرويد 8 أو أحدث، مع تشغيل اللعبة في الوضع الأفقي."},
+        {"title":"الإصدار v6","text":"التنزيل يأتي من الإصدار المنشور الخاص باللعبة، بصورة مستقلة عن برنامج التحميل."}
+      ],
+      "platforms":[],
+      "changesTitle":"معلومات الإصدار v6",
+      "changes":["رقم النسخة داخل ملف APK هو 6.0، ورقم الإصدار الداخلي 6.","نسخة Android التي نشرتها متاحة للتثبيت من روكس أب."]
+    }
+  ]
+}
