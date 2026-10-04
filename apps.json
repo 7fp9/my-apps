@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "1.0.0",
-    "versionCode": 1
+    "versionName": "1.1.0",
+    "versionCode": 3
   },
   "apps": [
     {
@@ -127,45 +127,306 @@
       ]
     },
     {
+      "id": "witcher",
+      "packageName": "com.anime.witcher",
+      "versionCode": 49,
+      "versionName": "1.4.9",
+      "minSdk": 23,
+      "size": 27272528,
+      "sha256": "e969dec7de9d697475784a2e69abe73e33653c244e8310a0dff89c19a998ea32",
+      "certificateSha256": "b4bc2447619c40e3b83e8519f17ba3e8acf556d749cbcae2a9c4f14257d89f37",
+      "icon": "witcher.png",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Anime Witcher",
+      "subtitle": "أنمي ويتشر",
+      "summary": "مكتبة الأنمي ومعلومات حلقاته.",
+      "description": "تطبيق مخصص لمشاهدة الأنمي على أندرويد واستكشاف معلومات الأعمال. أضفنا الإصدار 1.4.9 من رابط التحميل المنشور في موقع التطبيق.",
+      "category": "apps",
+      "android": "Android 6+",
+      "badge": "تطبيق مضاف",
+      "features": [
+        {
+          "title": "مكتبة الأنمي",
+          "text": "استكشاف أفلام ومسلسلات الأنمي."
+        },
+        {
+          "title": "معلومات الأعمال",
+          "text": "متابعة معلومات الأنمي والحلقات الجديدة حسب ما يوفّره التطبيق."
+        }
+      ],
+      "changesTitle": "معلومات النسخة المضافة",
+      "changes": [
+        "الإصدار داخل الملف: 1.4.9.",
+        "تمت إضافة الملف إلى مكتبة روكس أب دون تعديل توقيعه."
+      ],
+      "sourceUrl": "https://www.animewitcher.com/",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-04",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/witcher.apk"
+    },
+    {
+      "id": "slayer",
+      "packageName": "com.anslayer",
+      "versionCode": 47,
+      "versionName": "1.5.10",
+      "minSdk": 23,
+      "size": 16017776,
+      "sha256": "d0a539a994455dc402c748c34aeeac69310985d77946acdc17b899ba876d1dec",
+      "certificateSha256": "8d5f372f84655526b4474dfcef6ccdb84ed9266b4788e4636a3620a06bbb44d1",
+      "icon": "slayer.png",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Anime Slayer",
+      "subtitle": "أنمي سلاير",
+      "summary": "مشاهدة الأنمي من هاتفك.",
+      "description": "تطبيق أنمي سلاير لأندرويد. هذه نسخة 1.5.10 المتاحة في صفحة التحميل التي أضفتها إلى المكتبة.",
+      "category": "apps",
+      "android": "Android 6+",
+      "badge": "تطبيق مضاف",
+      "features": [
+        {
+          "title": "محتوى الأنمي",
+          "text": "واجهة مخصصة لاستكشاف أعمال الأنمي ومشاهدتها."
+        },
+        {
+          "title": "نسخة أندرويد",
+          "text": "ملف APK الأصلي للإصدار 1.5.10."
+        }
+      ],
+      "changesTitle": "معلومات النسخة المضافة",
+      "changes": [
+        "الإصدار داخل الملف: 1.5.10.",
+        "تمت إضافة الملف إلى مكتبة روكس أب دون تعديل توقيعه."
+      ],
+      "sourceUrl": "https://anslayer.com/download.html",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-04",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/slayer.apk"
+    },
+    {
+      "id": "anitaku",
+      "packageName": "com.anitaku",
+      "versionCode": 1,
+      "versionName": "0.1",
+      "minSdk": 23,
+      "size": 90007055,
+      "sha256": "cfba7dc41be0b33745aa549a15aef29abe4ee1a8d25c61ca62e441bc5d498b38",
+      "certificateSha256": "13c554e5a2495f51703ebc62be5db88f225ff13b05ff178d81e6a266abe44169",
+      "icon": "anitaku.webp",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "AniTaku",
+      "subtitle": "أنيتاكو",
+      "summary": "تطبيق أنمي ضمن مكتبتك.",
+      "description": "تطبيق AniTaku للأندرويد، الإصدار 0.1 من ملف MediaFire الذي أرسلته. يتخصص في محتوى الأنمي.",
+      "category": "apps",
+      "android": "Android 6+",
+      "badge": "تطبيق مضاف",
+      "features": [
+        {
+          "title": "الأنمي",
+          "text": "تطبيق مخصص لمحتوى الأنمي على الهاتف."
+        },
+        {
+          "title": "النسخة المضافة",
+          "text": "الإصدار 0.1 من رابطك، بتوقيعه الأصلي."
+        }
+      ],
+      "changesTitle": "معلومات النسخة المضافة",
+      "changes": [
+        "الإصدار داخل الملف: 0.1.",
+        "تمت إضافة الملف إلى مكتبة روكس أب دون تعديل توقيعه."
+      ],
+      "sourceUrl": "https://www.mediafire.com/file/oagei8xmumk08if/AniTaku.apk/file",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-04",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/anitaku.apk"
+    },
+    {
+      "id": "general-tv",
+      "packageName": "com.genraltvpro.app",
+      "versionCode": 200029,
+      "versionName": "2.19",
+      "minSdk": 23,
+      "size": 55293257,
+      "sha256": "ec36a2307265a51e15423a09412de977ce5d2059e46054f3027035ed0da79ff8",
+      "certificateSha256": "3f80cf2f1f055d4fc4cfe531aaec4a2bc8951e78c4b900d171039c31ca423225",
+      "icon": "general-tv.png",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "GENRAL TV",
+      "subtitle": "جنرال تي في",
+      "summary": "تشغيل المحتوى المرئي والقنوات.",
+      "description": "نسخة الهاتف من GENRAL TV. أضفنا ملف APK من رابطك المباشر، ورقم الإصدار داخل الملف هو 2.19.",
+      "category": "apps",
+      "android": "Android 6+",
+      "badge": "تطبيق مضاف",
+      "features": [
+        {
+          "title": "مشغل المحتوى",
+          "text": "واجهة لمشاهدة المحتوى المرئي والقنوات."
+        },
+        {
+          "title": "نسخة الهاتف",
+          "text": "ملف الهاتف للأندرويد، كما ورد في رابطك."
+        }
+      ],
+      "changesTitle": "معلومات النسخة المضافة",
+      "changes": [
+        "الإصدار داخل الملف: 2.19.",
+        "تمت إضافة الملف إلى مكتبة روكس أب دون تعديل توقيعه."
+      ],
+      "sourceUrl": "https://pub-439973995364482f9b3ca2c6761a8711.r2.dev/phone/GENRAL-TV.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-04",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/general-tv.apk"
+    },
+    {
+      "id": "egybest",
+      "packageName": "com.egyappwatch",
+      "versionCode": 26,
+      "versionName": "26.3.0",
+      "minSdk": 24,
+      "size": 61043063,
+      "sha256": "328148994af3620a83ae4a658772beab455e788edfc24086e1167ec88555801d",
+      "certificateSha256": "0f681655261f9ca2fa86d0a07f696a0e119f0ec756f9709ab192f7cdd8699445",
+      "icon": "egybest.png",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "Egybest",
+      "subtitle": "إيجي بست",
+      "summary": "واجهة للأفلام والمسلسلات.",
+      "description": "تطبيق Egybest من ملف EgybestV26.3.apk الذي أضفته من التنزيلات. رقم الإصدار الفعلي داخل الملف 26.3.0.",
+      "category": "apps",
+      "android": "Android 7+",
+      "badge": "تطبيق مضاف",
+      "features": [
+        {
+          "title": "المحتوى المرئي",
+          "text": "واجهة مخصصة للأفلام والمسلسلات."
+        },
+        {
+          "title": "ملفك الأصلي",
+          "text": "النسخة 26.3.0 من الملف الموجود على جهازك."
+        }
+      ],
+      "changesTitle": "معلومات النسخة المضافة",
+      "changes": [
+        "الإصدار داخل الملف: 26.3.0.",
+        "تمت إضافة الملف إلى مكتبة روكس أب دون تعديل توقيعه."
+      ],
+      "sourceUrl": "",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-04",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/egybest.apk"
+    },
+    {
+      "id": "dns-changer",
+      "packageName": "com.protectstar.dnschanger",
+      "versionCode": 1502,
+      "versionName": "1.5",
+      "minSdk": 23,
+      "size": 10959390,
+      "sha256": "d83a9091258ed071a2155667c8731e6264a1968e525d3a52dfb54e0e53f39caa",
+      "certificateSha256": "e170e1295a7acdd5a4fe57d3c0b812c48623e287ac033d9f9dd3d10eb08cf8a1",
+      "icon": "dns-changer.png",
+      "format": "xapk",
+      "supportedAbis": [
+        "armeabi-v7a"
+      ],
+      "name": "DNS Changer",
+      "subtitle": "مغيّر DNS — Protectstar",
+      "summary": "اختيار خادم DNS دون روت.",
+      "description": "DNS Changer من Protectstar يتيح تغيير خادم DNS للواي فاي وبيانات الهاتف دون روت. يعمل عبر واجهة VPN محلية لإدارة DNS. الإصدار الذي أضفته 1.5؛ بعض الأدوات المتقدمة تتطلب شراء PRO داخل التطبيق.",
+      "category": "apps",
+      "android": "Android 6+",
+      "badge": "أدوات الشبكة",
+      "features": [
+        {
+          "title": "خوادم جاهزة ومخصصة",
+          "text": "اختيار Cloudflare أو Google أو AdGuard وغيرها، أو إدخال عناوين IPv4 وIPv6 الخاصة بك."
+        },
+        {
+          "title": "الواي فاي وبيانات الهاتف",
+          "text": "التحكم بخادم DNS على نوعي الاتصال، والاتصال أو الإيقاف بزر واحد."
+        },
+        {
+          "title": "خيارات الفلترة",
+          "text": "حجب نطاقات الإعلانات أو المحتوى غير المناسب يعتمد على مزوّد DNS الذي تختاره."
+        },
+        {
+          "title": "أدوات PRO",
+          "text": "اختبار استجابة DNS والملفات المحفوظة والتحكم لكل تطبيق ضمن المزايا المدفوعة."
+        }
+      ],
+      "changesTitle": "معلومات النسخة المضافة",
+      "changes": [
+        "الإصدار داخل الملف: 1.5.",
+        "تمت إضافة الملف إلى مكتبة روكس أب دون تعديل توقيعه.",
+        "ملف XAPK بأجزاء ARM 32-bit؛ يتطلب جهازًا يدعم armeabi-v7a."
+      ],
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.protectstar.dnschanger",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-04",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/dns-changer.xapk"
+    },
+    {
       "id": "rocks-app",
       "name": "ROCKS App",
       "subtitle": "روكس أب",
       "category": "apps",
-      "summary": "مساحتك الخاصة للتطبيقات والألعاب.",
-      "description": "متجر روكس الشخصي: واجهة عربية ومكتبة وتنزيلات وسمات، مع تحميل الإصدارات من GitHub وفحصها وتثبيتها بموافقتك.",
-      "versionName": "1.0.0",
-      "versionCode": 1,
+      "summary": "تطبيقاتك وألعابك في مكان واحد.",
+      "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
+      "versionName": "1.1.0",
+      "versionCode": 3,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 160663,
-      "sha256": "73a49ce9d58205384d8296fe92e58621426f4e96ffcaddc2423f643087dc52b8",
+      "size": 390567,
+      "sha256": "0638fc2185ac96bdee9f2d4ec36c28345dfc3d7c0b34cd0e339d5915b930e5c7",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.0.0/ROCKS-App-1.0.0.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.0.0",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.1.0/ROCKS-App-1.1.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.1.0",
       "icon": "brand.svg",
-      "badge": "روكس أب",
+      "badge": "تحديث المتجر",
+      "changesTitle": "ما الجديد؟",
+      "changes": [
+        "صفحة مستقلة لتحديث التطبيقات المثبّتة.",
+        "صفحة حول لفحص تحديث المتجر من GitHub وتنزيله وتثبيته داخل التطبيق.",
+        "مقارنة رقم الإصدار الداخلي مع النسخة المثبّتة، وإظهار أخطاء الاتصال بوضوح.",
+        "تمرير المحتوى كاملًا بين الشريط العلوي والقائمة السفلية الثابتين.",
+        "بطاقات تنزيلات أصغر، وسمات بأزرار نحيفة ومعاينة صغيرة.",
+        "حركات انتقال خفيفة مع احترام تقليل الحركة في النظام.",
+        "إضافة Anime Witcher وAnime Slayer وAniTaku وGENRAL TV وEgybest وDNS Changer.",
+        "دعم XAPK المقسّم عبر مثبت أندرويد؛ ملف DNS المضاف خاص بالأجهزة التي تدعم ARM 32-bit."
+      ],
       "features": [
         {
-          "title": "المكتبة والتنزيلات",
-          "text": "عرض التطبيقات والألعاب وتحميلها مع الإيقاف المؤقت والاستئناف والإلغاء."
+          "title": "تحديثات مستقلة",
+          "text": "تحديث التطبيقات في صفحة التحديثات، وتحديث المتجر في صفحة حول."
         },
         {
-          "title": "مظهرك المفضل",
-          "text": "داكن وفاتح وحسب النظام وست لوحات ألوان."
-        },
-        {
-          "title": "متابعة الإصدارات",
-          "text": "قائمة حية للإصدارات وفحص الملفات قبل التثبيت."
+          "title": "تنزيل متكامل",
+          "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
         }
-      ],
-      "platforms": [],
-      "changesTitle": "الإصدار الأول 1.0.0",
-      "changes": [
-        "إضافة برنامج التحميل واللعبة العربية.",
-        "واجهة عربية وشاشة افتتاحية وتنزيلات وسمات.",
-        "قراءة قائمة التحديثات من GitHub."
       ]
     }
-  ]
+  ],
+  "updatedAt": "2026-10-04T16:15:04.630597+00:00"
 }
