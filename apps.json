@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "1.3.0",
-    "versionCode": 5
+    "versionName": "1.4.0",
+    "versionCode": 6
   },
   "apps": [
     {
@@ -170,15 +170,15 @@
       "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/slayer.apk"
     },
     {
-      "id": "anitaku",
+      "id": "rocks-anime",
       "packageName": "com.anitaku",
       "versionCode": 1,
       "versionName": "0.1",
       "minSdk": 23,
-      "size": 90007055,
-      "sha256": "cfba7dc41be0b33745aa549a15aef29abe4ee1a8d25c61ca62e441bc5d498b38",
-      "certificateSha256": "13c554e5a2495f51703ebc62be5db88f225ff13b05ff178d81e6a266abe44169",
-      "icon": "anitaku.webp",
+      "size": 92483012,
+      "sha256": "6dfa312d13d339724bd9d14936aea918e5a38339e17b07577f0543a3960487ad",
+      "certificateSha256": "4fe990149c5237a266bcef164ae1e2086cea6849015c7cc06c53cbcd2cbbb5e1",
+      "icon": "rocks-anime.webp",
       "supportedAbis": [
         "arm64-v8a",
         "armeabi",
@@ -186,31 +186,31 @@
         "x86",
         "x86_64"
       ],
-      "name": "AniTaku",
-      "subtitle": "أنيتاكو",
-      "summary": "تطبيق أنمي ضمن مكتبتك.",
-      "description": "تطبيق AniTaku للأندرويد، الإصدار 0.1 من ملف MediaFire الذي أرسلته. يتخصص في محتوى الأنمي.",
+      "name": "ROCKS ANIME",
+      "subtitle": "روكس أنمي",
       "category": "apps",
       "android": "Android 6+",
-      "badge": "تطبيق مضاف",
+      "summary": "تطبيق روكس للأنمي بواجهة عربية.",
+      "description": "تطبيق ROCKS ANIME من ملفك الأصلي، بأيقونة روكس الزرقاء. يستخدم معرّف AniTaku بتوقيع مختلف، لذلك احذف AniTaku يدويًا إن كان مثبتًا قبل تثبيت روكس أنمي. حذف النسخة القديمة قد يحذف بياناتها المحلية.",
+      "badge": "من تطوير روكس",
       "features": [
         {
-          "title": "الأنمي",
-          "text": "تطبيق مخصص لمحتوى الأنمي على الهاتف."
+          "title": "محتوى الأنمي",
+          "text": "واجهة مخصصة لاستكشاف الأنمي ومتابعته."
         },
         {
-          "title": "النسخة المضافة",
-          "text": "الإصدار 0.1 من رابطك، بتوقيعه الأصلي."
+          "title": "نسخة روكس الأصلية",
+          "text": "ملفك الأصلي وأيقونته، دون تعديل التطبيق أو إعادة توقيعه."
         }
       ],
-      "changesTitle": "معلومات النسخة المضافة",
+      "changesTitle": "معلومات الإصدار",
       "changes": [
-        "الإصدار داخل الملف: 0.1.",
-        "تمت إضافة الملف إلى مكتبة روكس أب دون تعديل توقيعه."
+        "إضافة روكس أنمي بدل بطاقة AniTaku في المكتبة.",
+        "الإصدار الفعلي داخل الملف: 0.1.",
+        "أيقونة التطبيق الأصلية مستخرجة من ملف APK."
       ],
-      "sourceUrl": "https://www.mediafire.com/file/oagei8xmumk08if/AniTaku.apk/file",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-04",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/anitaku.apk"
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-anime-v0.1",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-anime-v0.1/ROCKS-ANIME-0.1.apk"
     },
     {
       "id": "general-tv",
@@ -488,27 +488,26 @@
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "1.3.0",
-      "versionCode": 5,
+      "versionName": "1.4.0",
+      "versionCode": 6,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 427637,
-      "sha256": "d38bfb596659458f147e2529f06dd51317188b5250255ff6abeefef3ecccac34",
+      "size": 431802,
+      "sha256": "d34235f9e216987448df8988099d9b34e146f6f30b2edb24383d389d7861aade",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.3.0/ROCKS-App-1.3.0.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.3.0",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.4.0/ROCKS-App-1.4.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.4.0",
       "icon": "brand.svg",
       "badge": "تحديث المتجر",
       "changesTitle": "ما الجديد؟",
       "changes": [
-        "إضافة ROCKS Cinema 26.3.0 بدل بطاقة Egybest، بأيقونته الأصلية.",
-        "إضافة Manga Slayer 3.1.4 المستقرة وMangamello 3.0.7 بأيقوناتهما الأصلية.",
-        "فحص GitHub عند كل دخول للمتجر، وإظهار تنبيه إذا كان الإصدار المنشور أحدث؛ زر عرض التحديث يفتح صفحة حول.",
-        "عدم عرض تنبيه مضلل من قائمة قديمة أو عند انقطاع الاتصال.",
-        "توسيع دعم XAPK واختيار جزء المعالج المناسب تلقائيًا لتثبيت مانجا ميلو.",
-        "تمييز التوقيع الفعلي للتطبيق المثبّت؛ روكس سينما يستخدم معرّف Egybest بتوقيع مختلف، لذلك يحتاج حذف القديم يدويًا قبل تثبيته.",
-        "تحديث المتجر وتنزيله وتثبيته من الإعدادات ← حول روكس أب بالموافقة المعتادة من أندرويد."
+        "إضافة ROCKS ANIME 0.1 بدل بطاقة AniTaku، بأيقونته الأصلية الزرقاء.",
+        "تحسين حركة الانتقال بين المكتبة والتحديثات والتنزيلات والإعدادات، مع ظهور متدرج للعناصر وانتقال أيقونة التطبيق إلى صفحة التفاصيل.",
+        "اختيار مدة قياس سرعة الإنترنت: 5 أو 10 أو 20 أو 30 ثانية للتحميل والرفع معًا، مع إيقاف مؤقت للاختيار أثناء الفحص.",
+        "المدد الجديدة تطبّق على القياس الفعلي؛ يضاف قياس الاستجابة إلى الوقت، وقد ينتهي القياس مبكرًا عند حد البيانات 48 MB.",
+        "روكس أنمي يستخدم معرّف AniTaku بتوقيع مختلف؛ احذف AniTaku يدويًا قبل تثبيت روكس أنمي.",
+        "استمرار فحص تحديث المتجر من GitHub عند الدخول، والتنزيل والتثبيت من الإعدادات ← حول روكس أب بموافقة أندرويد."
       ],
       "features": [
         {
@@ -522,5 +521,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-05T18:56:15.138671+00:00"
+  "updatedAt": "2026-10-05T20:16:47.278983+00:00"
 }
