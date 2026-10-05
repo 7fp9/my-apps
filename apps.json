@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "1.1.0",
-    "versionCode": 3
+    "versionName": "1.2.0",
+    "versionCode": 4
   },
   "apps": [
     {
@@ -83,47 +83,6 @@
         "دمج الوسائط وتحويل الصوت بواسطة FFmpeg داخل الهاتف.",
         "تنظيم التنزيلات وجدولتها ومتابعتها في الخلفية.",
         "تخصيص السمة والملف الشخصي وتحديث محرك التحميل."
-      ]
-    },
-    {
-      "id": "r4s-coffin",
-      "name": "تابوت آندي وليلي",
-      "subtitle": "R4S Coffin — النسخة العربية",
-      "category": "games",
-      "summary": "نسختك العربية، الآن على أندرويد.",
-      "description": "نسخة R4S Coffin Arabic Android التي حوّلتها لتعمل على هواتف أندرويد. تُعرض اللعبة بالعربية وتفتح في الوضع الأفقي. ملف التثبيت هنا هو إصدار v6 الذي نشرته على GitHub.",
-      "versionName": "6.0",
-      "versionCode": 6,
-      "packageName": "com.r4s.coffin.arabic",
-      "minSdk": 26,
-      "android": "Android 8+",
-      "size": 489900807,
-      "sha256": "b025e7eb05333ca8055e462d6228ebe15223b6d777ffdbdd6c86aea9f2ba371f",
-      "certificateSha256": "bdd67b273a6d4523524ed08e63001fe74d1f74a91f4525bbe2606a75a2427db3",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/r4s-coffin-arabic-android-v6/R4S-Coffin-Arabic-Android-v6.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/r4s-coffin-arabic-android-v6",
-      "icon": "coffin.png",
-      "accent": "#ee9f7a",
-      "badge": "لعبة بالعربية",
-      "features": [
-        {
-          "title": "نسخة عربية",
-          "text": "النسخة التي جهزتها تحمل اسم تابوت آندي وليلي — عربي."
-        },
-        {
-          "title": "على هاتفك",
-          "text": "حزمة APK لأندرويد 8 أو أحدث، مع تشغيل اللعبة في الوضع الأفقي."
-        },
-        {
-          "title": "الإصدار v6",
-          "text": "التنزيل يأتي من الإصدار المنشور الخاص باللعبة، بصورة مستقلة عن برنامج التحميل."
-        }
-      ],
-      "platforms": [],
-      "changesTitle": "معلومات الإصدار v6",
-      "changes": [
-        "رقم النسخة داخل ملف APK هو 6.0، ورقم الإصدار الداخلي 6.",
-        "نسخة Android التي نشرتها متاحة للتثبيت من روكس أب."
       ]
     },
     {
@@ -387,34 +346,76 @@
       "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/dns-changer.xapk"
     },
     {
+      "id": "r4s-coffin",
+      "name": "تابوت آندي وليلي",
+      "subtitle": "R4S Coffin — النسخة العربية",
+      "category": "games",
+      "summary": "نسختك العربية، الآن على أندرويد.",
+      "description": "نسخة R4S Coffin Arabic Android التي حوّلتها لتعمل على هواتف أندرويد. تُعرض اللعبة بالعربية وتفتح في الوضع الأفقي. ملف التثبيت هنا هو إصدار v6 الذي نشرته على GitHub.",
+      "versionName": "6.0",
+      "versionCode": 6,
+      "packageName": "com.r4s.coffin.arabic",
+      "minSdk": 26,
+      "android": "Android 8+",
+      "size": 489900807,
+      "sha256": "b025e7eb05333ca8055e462d6228ebe15223b6d777ffdbdd6c86aea9f2ba371f",
+      "certificateSha256": "bdd67b273a6d4523524ed08e63001fe74d1f74a91f4525bbe2606a75a2427db3",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/r4s-coffin-arabic-android-v6/R4S-Coffin-Arabic-Android-v6.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/r4s-coffin-arabic-android-v6",
+      "icon": "coffin.png",
+      "accent": "#ee9f7a",
+      "badge": "18 سنة فأكثر",
+      "features": [
+        {
+          "title": "نسخة عربية",
+          "text": "النسخة التي جهزتها تحمل اسم تابوت آندي وليلي — عربي."
+        },
+        {
+          "title": "على هاتفك",
+          "text": "حزمة APK لأندرويد 8 أو أحدث، مع تشغيل اللعبة في الوضع الأفقي."
+        },
+        {
+          "title": "الإصدار v6",
+          "text": "التنزيل يأتي من الإصدار المنشور الخاص باللعبة، بصورة مستقلة عن برنامج التحميل."
+        }
+      ],
+      "platforms": [],
+      "changesTitle": "معلومات الإصدار v6",
+      "changes": [
+        "رقم النسخة داخل ملف APK هو 6.0، ورقم الإصدار الداخلي 6.",
+        "نسخة Android التي نشرتها متاحة للتثبيت من روكس أب."
+      ],
+      "minAge": 18,
+      "contentRating": "18+"
+    },
+    {
       "id": "rocks-app",
       "name": "ROCKS App",
       "subtitle": "روكس أب",
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "1.1.0",
-      "versionCode": 3,
+      "versionName": "1.2.0",
+      "versionCode": 4,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 390567,
-      "sha256": "0638fc2185ac96bdee9f2d4ec36c28345dfc3d7c0b34cd0e339d5915b930e5c7",
+      "size": 398758,
+      "sha256": "3cb01685681a4bc41a1b24e7fc1dc1fbb81d51390442802008c316f85f62810a",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.1.0/ROCKS-App-1.1.0.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.1.0",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.2.0/ROCKS-App-1.2.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.2.0",
       "icon": "brand.svg",
       "badge": "تحديث المتجر",
       "changesTitle": "ما الجديد؟",
       "changes": [
-        "صفحة مستقلة لتحديث التطبيقات المثبّتة.",
-        "صفحة حول لفحص تحديث المتجر من GitHub وتنزيله وتثبيته داخل التطبيق.",
-        "مقارنة رقم الإصدار الداخلي مع النسخة المثبّتة، وإظهار أخطاء الاتصال بوضوح.",
-        "تمرير المحتوى كاملًا بين الشريط العلوي والقائمة السفلية الثابتين.",
-        "بطاقات تنزيلات أصغر، وسمات بأزرار نحيفة ومعاينة صغيرة.",
-        "حركات انتقال خفيفة مع احترام تقليل الحركة في النظام.",
-        "إضافة Anime Witcher وAnime Slayer وAniTaku وGENRAL TV وEgybest وDNS Changer.",
-        "دعم XAPK المقسّم عبر مثبت أندرويد؛ ملف DNS المضاف خاص بالأجهزة التي تدعم ARM 32-bit."
+        "حركات تنقل أكثر سلاسة، وانتقال تدريجي لألوان السمات في الواجهة وأشرطة النظام.",
+        "نقل لعبة التابوت إلى آخر المكتبة وإظهار شارة حمراء «18 سنة فأكثر».",
+        "تحقق من تاريخ الميلاد الميلادي قبل فتح تفاصيل اللعبة أو تحميلها وتثبيتها، مع حساب العمر باليوم والشهر والسنة.",
+        "تاريخ الميلاد لا يُحفظ ولا يُرسل؛ التحقق إقرار بالعمر وليس تحققًا من الهوية.",
+        "فحص فعلي لسرعة التحميل والرفع عبر Cloudflare، مع عدّاد متحرك ومنحنى للقياسات وزمن استجابة HTTP.",
+        "بدء فحص السرعة وإيقافه من الإعدادات؛ يستخدم بيانات تجريبية حتى 48 MB تقريبًا، ويتوقف عند مغادرة التطبيق.",
+        "الإبقاء على تحديث المتجر من الإعدادات ← حول روكس أب، وتنزيل التحديث وتثبيته داخل التطبيق."
       ],
       "features": [
         {
@@ -428,5 +429,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-04T16:15:04.630597+00:00"
+  "updatedAt": "2026-10-05T13:00:50.370079+00:00"
 }
