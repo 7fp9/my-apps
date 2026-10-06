@@ -2,10 +2,61 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "1.4.0",
-    "versionCode": 6
+    "versionName": "1.5.0",
+    "versionCode": 7
   },
   "apps": [
+    {
+      "id": "rocks-drama",
+      "packageName": "com.alam.aldrama3",
+      "versionCode": 35,
+      "versionName": "V4.2",
+      "minSdk": 21,
+      "size": 18505187,
+      "sha256": "585e88ab2a0e09d7d51f1e50af2da7cf261c6dedbbf6fb47116028de7ee7b4f3",
+      "certificateSha256": "de012696395c02a8cf4f4c565f1c4b15ea43ad4599662596fb8f43edae518e42",
+      "icon": "rocks-drama.png",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "category": "apps",
+      "android": "Android 5+",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-drama-v4.2a",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-drama-v4.2a/ROCKS-DRAMA-V4.2a.apk",
+      "name": "ROCKS DRAMA",
+      "subtitle": "روكس دراما",
+      "summary": "أفلام ومسلسلات بدون إعلانات، مع مشغّل DWPlayer.",
+      "description": "نسخة روكس دراما التي أنشأتها لمتابعة الأفلام والمسلسلات بدون إعلانات. تتطلب المشاهدة تثبيت DWPlayer؛ ينزّل روكس أب الملفين ويعرض تثبيت المشغّل ثم البرنامج، مع موافقتك في مثبت أندرويد. حدّث المتجر إلى 1.5.0 أو أحدث لاستخدام التنزيل المرافق.",
+      "badge": "بدون إعلانات",
+      "dependencies": [
+        "dwplayer"
+      ],
+      "minStoreVersionCode": 7,
+      "features": [
+        {
+          "title": "بدون إعلانات",
+          "text": "نسخة روكس المخصصة بدون إعلانات."
+        },
+        {
+          "title": "أفلام ومسلسلات",
+          "text": "متابعة الأفلام والمسلسلات من واجهة روكس دراما."
+        },
+        {
+          "title": "المشغّل ضروري",
+          "text": "المشاهدة لا تعمل دون DWPlayer. يتم تنزيله مع التطبيق، ثم تثبيتهما على خطوتين."
+        }
+      ],
+      "changesTitle": "معلومات الإصدار",
+      "changes": [
+        "إضافة ملف ROCKS-DRAMA-V4.2a.apk الأصلي وأيقونته.",
+        "الإصدار الداخلي في الملف V4.2، رقم الإصدار 35.",
+        "المشغّل المرافق DWPlayer 1.4، رقم الإصدار 9."
+      ]
+    },
     {
       "id": "rocks-downloader",
       "name": "ROCKS Downloader",
@@ -84,6 +135,92 @@
         "تنظيم التنزيلات وجدولتها ومتابعتها في الخلفية.",
         "تخصيص السمة والملف الشخصي وتحديث محرك التحميل."
       ]
+    },
+    {
+      "id": "rocks-anime",
+      "packageName": "com.anitaku",
+      "versionCode": 1,
+      "versionName": "0.1",
+      "minSdk": 23,
+      "size": 92483012,
+      "sha256": "6dfa312d13d339724bd9d14936aea918e5a38339e17b07577f0543a3960487ad",
+      "certificateSha256": "4fe990149c5237a266bcef164ae1e2086cea6849015c7cc06c53cbcd2cbbb5e1",
+      "icon": "rocks-anime.webp",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "ROCKS ANIME",
+      "subtitle": "روكس أنمي",
+      "category": "apps",
+      "android": "Android 6+",
+      "summary": "تطبيق روكس للأنمي بواجهة عربية.",
+      "description": "تطبيق ROCKS ANIME من ملفك الأصلي، بأيقونة روكس الزرقاء. يستخدم معرّف AniTaku بتوقيع مختلف، لذلك احذف AniTaku يدويًا إن كان مثبتًا قبل تثبيت روكس أنمي. حذف النسخة القديمة قد يحذف بياناتها المحلية.",
+      "badge": "من تطوير روكس",
+      "features": [
+        {
+          "title": "محتوى الأنمي",
+          "text": "واجهة مخصصة لاستكشاف الأنمي ومتابعته."
+        },
+        {
+          "title": "نسخة روكس الأصلية",
+          "text": "ملفك الأصلي وأيقونته، دون تعديل التطبيق أو إعادة توقيعه."
+        }
+      ],
+      "changesTitle": "معلومات الإصدار",
+      "changes": [
+        "إضافة روكس أنمي بدل بطاقة AniTaku في المكتبة.",
+        "الإصدار الفعلي داخل الملف: 0.1.",
+        "أيقونة التطبيق الأصلية مستخرجة من ملف APK."
+      ],
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-anime-v0.1",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-anime-v0.1/ROCKS-ANIME-0.1.apk"
+    },
+    {
+      "id": "rocks-cinema",
+      "packageName": "com.egyappwatch",
+      "versionCode": 26,
+      "versionName": "26.3.0",
+      "minSdk": 24,
+      "size": 59577067,
+      "sha256": "9762b8b95070aead3278e17029c983ab52e94ce4c73cd273f014d4d9aaf7435c",
+      "certificateSha256": "17674646e1cb93969c0d61866d6e0c7a0c060c2d33b09d629d205c80356408e1",
+      "icon": "rocks-cinema.png",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "ROCKS Cinema",
+      "subtitle": "روكس سينما",
+      "summary": "تطبيقك للأفلام والمسلسلات.",
+      "description": "روكس سينما للأندرويد من ملف ROCKS-Cinema-26.3.apk الذي أنشأته. الإصدار داخل الملف 26.3.0. هذه النسخة تستخدم معرّف Egybest نفسه وتوقيعًا مختلفًا؛ إذا كان Egybest مثبّتًا فيلزم حذفه يدويًا قبل تثبيت روكس سينما.",
+      "sourceUrl": "",
+      "badge": "من تطوير روكس",
+      "features": [
+        {
+          "title": "الأفلام والمسلسلات",
+          "text": "واجهة عربية مخصصة لاستكشاف المحتوى المرئي."
+        },
+        {
+          "title": "نسختك الأصلية",
+          "text": "ملف روكس سينما الذي زوّدتنا به، دون تغيير محتواه أو توقيعه."
+        }
+      ],
+      "changes": [
+        "إضافة ROCKS Cinema بدل بطاقة Egybest إلى مكتبة روكس أب.",
+        "رقم الإصدار الفعلي داخل الملف: 26.3.0.",
+        "لا يمكن تثبيته بجانب Egybest بسبب تشارك معرّف الحزمة."
+      ],
+      "category": "apps",
+      "android": "Android 7+",
+      "changesTitle": "معلومات النسخة المضافة",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-05",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-05/ROCKS-Cinema-26.3.apk"
     },
     {
       "id": "witcher",
@@ -168,49 +305,6 @@
       "sourceUrl": "https://anslayer.com/download.html",
       "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-04",
       "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/slayer.apk"
-    },
-    {
-      "id": "rocks-anime",
-      "packageName": "com.anitaku",
-      "versionCode": 1,
-      "versionName": "0.1",
-      "minSdk": 23,
-      "size": 92483012,
-      "sha256": "6dfa312d13d339724bd9d14936aea918e5a38339e17b07577f0543a3960487ad",
-      "certificateSha256": "4fe990149c5237a266bcef164ae1e2086cea6849015c7cc06c53cbcd2cbbb5e1",
-      "icon": "rocks-anime.webp",
-      "supportedAbis": [
-        "arm64-v8a",
-        "armeabi",
-        "armeabi-v7a",
-        "x86",
-        "x86_64"
-      ],
-      "name": "ROCKS ANIME",
-      "subtitle": "روكس أنمي",
-      "category": "apps",
-      "android": "Android 6+",
-      "summary": "تطبيق روكس للأنمي بواجهة عربية.",
-      "description": "تطبيق ROCKS ANIME من ملفك الأصلي، بأيقونة روكس الزرقاء. يستخدم معرّف AniTaku بتوقيع مختلف، لذلك احذف AniTaku يدويًا إن كان مثبتًا قبل تثبيت روكس أنمي. حذف النسخة القديمة قد يحذف بياناتها المحلية.",
-      "badge": "من تطوير روكس",
-      "features": [
-        {
-          "title": "محتوى الأنمي",
-          "text": "واجهة مخصصة لاستكشاف الأنمي ومتابعته."
-        },
-        {
-          "title": "نسخة روكس الأصلية",
-          "text": "ملفك الأصلي وأيقونته، دون تعديل التطبيق أو إعادة توقيعه."
-        }
-      ],
-      "changesTitle": "معلومات الإصدار",
-      "changes": [
-        "إضافة روكس أنمي بدل بطاقة AniTaku في المكتبة.",
-        "الإصدار الفعلي داخل الملف: 0.1.",
-        "أيقونة التطبيق الأصلية مستخرجة من ملف APK."
-      ],
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-anime-v0.1",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-anime-v0.1/ROCKS-ANIME-0.1.apk"
     },
     {
       "id": "general-tv",
@@ -302,49 +396,6 @@
       "sourceUrl": "https://play.google.com/store/apps/details?id=com.protectstar.dnschanger",
       "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-04",
       "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-04/dns-changer.xapk"
-    },
-    {
-      "id": "rocks-cinema",
-      "packageName": "com.egyappwatch",
-      "versionCode": 26,
-      "versionName": "26.3.0",
-      "minSdk": 24,
-      "size": 59577067,
-      "sha256": "9762b8b95070aead3278e17029c983ab52e94ce4c73cd273f014d4d9aaf7435c",
-      "certificateSha256": "17674646e1cb93969c0d61866d6e0c7a0c060c2d33b09d629d205c80356408e1",
-      "icon": "rocks-cinema.png",
-      "supportedAbis": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86",
-        "x86_64"
-      ],
-      "name": "ROCKS Cinema",
-      "subtitle": "روكس سينما",
-      "summary": "تطبيقك للأفلام والمسلسلات.",
-      "description": "روكس سينما للأندرويد من ملف ROCKS-Cinema-26.3.apk الذي أنشأته. الإصدار داخل الملف 26.3.0. هذه النسخة تستخدم معرّف Egybest نفسه وتوقيعًا مختلفًا؛ إذا كان Egybest مثبّتًا فيلزم حذفه يدويًا قبل تثبيت روكس سينما.",
-      "sourceUrl": "",
-      "badge": "من تطوير روكس",
-      "features": [
-        {
-          "title": "الأفلام والمسلسلات",
-          "text": "واجهة عربية مخصصة لاستكشاف المحتوى المرئي."
-        },
-        {
-          "title": "نسختك الأصلية",
-          "text": "ملف روكس سينما الذي زوّدتنا به، دون تغيير محتواه أو توقيعه."
-        }
-      ],
-      "changes": [
-        "إضافة ROCKS Cinema بدل بطاقة Egybest إلى مكتبة روكس أب.",
-        "رقم الإصدار الفعلي داخل الملف: 26.3.0.",
-        "لا يمكن تثبيته بجانب Egybest بسبب تشارك معرّف الحزمة."
-      ],
-      "category": "apps",
-      "android": "Android 7+",
-      "changesTitle": "معلومات النسخة المضافة",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-05",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-05/ROCKS-Cinema-26.3.apk"
     },
     {
       "id": "manga-slayer",
@@ -482,32 +533,64 @@
       "contentRating": "18+"
     },
     {
+      "id": "dwplayer",
+      "packageName": "com.dwplayer.app",
+      "versionCode": 9,
+      "versionName": "1.4",
+      "minSdk": 21,
+      "size": 10553485,
+      "sha256": "0e84b087822fcc12d5454b0c4f45724e956cd06bd5f0be6cd2add987a68aa43e",
+      "certificateSha256": "f1ae3cc5ed73f4c18c1e72bcc3ec2a2d441c0800ddc3c605e412de3a5adb6261",
+      "icon": "",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "category": "apps",
+      "android": "Android 5+",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-drama-v4.2a",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-drama-v4.2a/DWPlayer_V1.4.apk",
+      "name": "DWPlayer",
+      "subtitle": "المشغّل المرافق لروكس دراما",
+      "summary": "مطلوب للمشاهدة داخل روكس دراما.",
+      "description": "مشغّل الفيديو المطلوب لروكس دراما، يُنزّل معه ويُثبّت قبل البرنامج بموافقة أندرويد.",
+      "hidden": true,
+      "companionFor": "rocks-drama",
+      "badge": "متطلب المشاهدة",
+      "features": [],
+      "changes": [
+        "نسخة المشغّل الأصلية 1.4."
+      ]
+    },
+    {
       "id": "rocks-app",
       "name": "ROCKS App",
       "subtitle": "روكس أب",
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "1.4.0",
-      "versionCode": 6,
+      "versionName": "1.5.0",
+      "versionCode": 7,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 431802,
-      "sha256": "d34235f9e216987448df8988099d9b34e146f6f30b2edb24383d389d7861aade",
+      "size": 435960,
+      "sha256": "6a11d6a0720e940daa3259e835ffd3f5ace1cea47d066c09d46b724429eda847",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.4.0/ROCKS-App-1.4.0.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.4.0",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.5.0/ROCKS-App-1.5.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.5.0",
       "icon": "brand.svg",
       "badge": "تحديث المتجر",
       "changesTitle": "ما الجديد؟",
       "changes": [
-        "إضافة ROCKS ANIME 0.1 بدل بطاقة AniTaku، بأيقونته الأصلية الزرقاء.",
-        "تحسين حركة الانتقال بين المكتبة والتحديثات والتنزيلات والإعدادات، مع ظهور متدرج للعناصر وانتقال أيقونة التطبيق إلى صفحة التفاصيل.",
-        "اختيار مدة قياس سرعة الإنترنت: 5 أو 10 أو 20 أو 30 ثانية للتحميل والرفع معًا، مع إيقاف مؤقت للاختيار أثناء الفحص.",
-        "المدد الجديدة تطبّق على القياس الفعلي؛ يضاف قياس الاستجابة إلى الوقت، وقد ينتهي القياس مبكرًا عند حد البيانات 48 MB.",
-        "روكس أنمي يستخدم معرّف AniTaku بتوقيع مختلف؛ احذف AniTaku يدويًا قبل تثبيت روكس أنمي.",
-        "استمرار فحص تحديث المتجر من GitHub عند الدخول، والتنزيل والتثبيت من الإعدادات ← حول روكس أب بموافقة أندرويد."
+        "إضافة ROCKS DRAMA من ملفك الأصلي وأيقونته، لمتابعة الأفلام والمسلسلات بدون إعلانات.",
+        "تنزيل DWPlayer 1.4 مع روكس دراما كملفين منفصلين؛ المشغّل لا يظهر كبطاقة مستقلة في المكتبة.",
+        "المشاهدة تتطلب المشغّل؛ تثبيته أولًا ثم تثبيت دراما، بموافقة أندرويد على كل ملف.",
+        "وضع روكس دراما وتطبيقات روكس في أول المكتبة، قبل التطبيقات الأخرى، مع بقاء اللعبة في آخر القائمة.",
+        "إضافة سمة أسود AMOLED بخلفيات سوداء خالصة ونص أبيض، مستقلة عن الوضع الفاتح أو سمة النظام.",
+        "استمرار تحديث المتجر من GitHub عبر الإعدادات ← حول روكس أب."
       ],
       "features": [
         {
@@ -521,5 +604,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-05T20:16:47.278983+00:00"
+  "updatedAt": "2026-10-06T03:04:25.272922+00:00"
 }
