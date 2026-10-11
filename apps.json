@@ -3,7 +3,7 @@
   "store": {
     "name": "ROCKS App",
     "versionName": "1.8.3",
-    "versionCode": 30
+    "versionCode": 31
   },
   "apps": [
     {
@@ -259,7 +259,7 @@
       "mandatoryVersionCode": 31,
       "mandatoryMessage": "تحديث إجباري إلى ROCKS Cinema 27.1.1 المبني على EGBest 27.1، مع إصلاحات وتوافق المصادر وتصميم روكس. حدّث المتجر أولًا ثم ثبّت السينما فوق نسختك السابقة.",
       "importantNotice": "يتطلب هذا الإصدار متجر ROCKS App 1.6.2 أو أحدث، مع تجربة أو اشتراك فعّال أو ترخيص شراء هذا التطبيق تحديدًا.",
-      "minStoreVersionCode": 30
+      "minStoreVersionCode": 31
     },
     {
       "id": "witcher",
@@ -767,12 +767,12 @@
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
       "versionName": "1.8.3",
-      "versionCode": 30,
+      "versionCode": 31,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
       "size": 2171329,
-      "sha256": "9796fb6f41967e79c001c47c523f57a4ad983db911be8373f0872c3dbc5ecd56",
+      "sha256": "cf795a632937b9c01c0fa76b91c97c88c6cd68f4c32e86050d5d41ade7324837",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
       "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.8.3/ROCKS-App-1.8.3.apk",
       "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.8.3",
@@ -797,22 +797,18 @@
           "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
         }
       ],
-      "mandatoryVersionCode": 30,
+      "mandatoryVersionCode": 31,
       "mandatoryMessage": "تحديث إجباري إلى روكس أب 1.8.3 لدعم تحديث سينما روكس وإصلاحات التحديث والتنزيل.",
       "editions": {
         "lite": {
           "versionName": "1.8.3",
-          "versionCode": 30,
+          "versionCode": 31,
           "size": 502694,
-          "sha256": "b0ba27bdc03a3b2143d344fa2d7bebaa2d505974d0f8adcb5b30e1477505214b",
+          "sha256": "bb11160baf271ffdd1c10d607a6eafcaad13cb0fee97231f4bcf147fdd961130",
           "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.8.3/ROCKS-App-Lite-1.8.3.apk",
-          "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.8.3",
           "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
           "packageName": "com.rocks.app",
-          "minSdk": 26,
-          "android": "Android 8+",
-          "mandatoryVersionCode": 30,
-          "mandatoryMessage": "تحديث إجباري إلى روكس أب 1.8.3 لدعم تحديث سينما روكس وإصلاحات التحديث والتنزيل."
+          "mandatoryVersionCode": 31
         }
       }
     }
@@ -822,5 +818,5 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-10-11T20:05:31.515083+00:00"
+  "updatedAt": "2026-10-11T20:24:52.767908+00:00"
 }
