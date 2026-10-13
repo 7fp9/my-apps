@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "1.8.3",
-    "versionCode": 31
+    "versionName": "1.9.0",
+    "versionCode": 32
   },
   "apps": [
     {
@@ -766,27 +766,26 @@
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "1.8.3",
-      "versionCode": 31,
+      "versionName": "1.9.0",
+      "versionCode": 32,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 2171329,
-      "sha256": "cf795a632937b9c01c0fa76b91c97c88c6cd68f4c32e86050d5d41ade7324837",
+      "size": 7668412,
+      "sha256": "621418ae28d75a98b4da40635bcd270fd44cecfd02ea89d36593fcfca12c39a0",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.8.3/ROCKS-App-1.8.3.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.8.3",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.9.0/ROCKS-App-1.9.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.9.0",
       "icon": "brand.svg",
       "badge": "تحديث إجباري",
       "changesTitle": "ما الجديد؟",
       "changes": [
-        "تحديث إجباري إلى روكس أب 1.8.3 بنفس توقيع المتجر مع الاحتفاظ بالبيانات والاشتراكات.",
-        "تحديث ROCKS Cinema إلى 27.1.1 المبني على EGBest 27.1، بهوية روكس السوداء والحمراء وإصلاحات توافق التحديث الجديد.",
-        "تعطيل فحص DNS وإعلانات التطبيق وانتظار الإعلان، مع الحفاظ على المصادر والمشغّل وقيود المحتوى الأصلية.",
-        "دعم التابلت الأفقي والتحقق الفعلي من المتجر والاشتراك، ومهلة ثابتة 24 ساعة بعد انتهاء المدة.",
-        "بدء تنزيل التحديث الإجباري المطلوب تلقائيًا مرة واحدة عند فتح المتجر؛ يمكن إيقافه أو إلغاؤه والتثبيت بموافقة أندرويد.",
-        "الحفاظ على باقات المتجر الحالية والتراخيص الدائمة السابقة والنسختين الكاملة والمخففة.",
-        "إصلاح صيغة بيانات نسخة Lite والتحقق من سلامة كتالوج النسختين؛ البناء النهائي 31."
+        "تحديث روكس أب 1.9.0 مع الاحتفاظ بالبيانات والاشتراكات والتوقيع الأصلي.",
+        "تنبيه تحديث علوي بنسبة التنزيل الفعلية وفتح مثبت أندرويد تلقائيًا بعد التحقق من الملف؛ تبقى النسخة القديمة مقفلة حتى التحديث بموافقة المستخدم.",
+        "صفحة مكافآت من زر التشغيل العلوي: خمس مشاهدات مكتملة ومؤكدة تمنح بريميوم 24 ساعة لهذا الجهاز؛ اللعبة المدفوعة غير مشمولة.",
+        "الإعلانات بطلب المستخدم فقط دون تشغيل متتالٍ أو إعادة محاولة تلقائية، مع رسائل الأخطاء وخيارات الخصوصية.",
+        "تأكيد المكافآت عبر توقيع AdMob على الخادم؛ لا مفاتيح حساب المالك داخل APK. توفر الإعلانات يعتمد على مراجعة AdMob.",
+        "الحفاظ على النسختين الكاملة والمخففة وعلى جميع تراخيص وباقات المتجر."
       ],
       "features": [
         {
@@ -798,18 +797,18 @@
           "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
         }
       ],
-      "mandatoryVersionCode": 31,
-      "mandatoryMessage": "تحديث إجباري إلى روكس أب 1.8.3 لدعم تحديث سينما روكس وإصلاحات التحديث والتنزيل.",
+      "mandatoryVersionCode": 32,
+      "mandatoryMessage": "حدّث روكس أب إلى 1.9.0 لاستخدام واجهة التحديث المبسطة ومكافآت بريميوم.",
       "editions": {
         "lite": {
-          "versionName": "1.8.3",
-          "versionCode": 31,
-          "size": 502694,
-          "sha256": "bb11160baf271ffdd1c10d607a6eafcaad13cb0fee97231f4bcf147fdd961130",
-          "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.8.3/ROCKS-App-Lite-1.8.3.apk",
+          "versionName": "1.9.0",
+          "versionCode": 32,
+          "size": 6002329,
+          "sha256": "78c84d99395a499e0d6fbd867685b3ccfa989bb12b897a481c652a7f73183f3a",
+          "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.9.0/ROCKS-App-Lite-1.9.0.apk",
           "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
           "packageName": "com.rocks.app",
-          "mandatoryVersionCode": 31
+          "mandatoryVersionCode": 32
         }
       }
     }
@@ -819,5 +818,5 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-10-11T20:24:52.767908+00:00"
+  "updatedAt": "2026-10-13T21:58:10.502353+00:00"
 }
