@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "1.9.9",
-    "versionCode": 38
+    "versionName": "2.0.0",
+    "versionCode": 39
   },
   "apps": [
     {
@@ -766,25 +766,27 @@
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "1.9.9",
-      "versionCode": 38,
+      "versionName": "2.0.0",
+      "versionCode": 39,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 7745242,
-      "sha256": "28fda90b9aae31d551da57259395db2293ab9243dea84ecb1c3dee0bfcad6745",
+      "size": 6128410,
+      "sha256": "91f82f04e5df1be850e6b6fc9971e5d63acbcef7c05f87dbd1c4eab8d4fde840",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.9.9/ROCKS-App-1.9.9.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v1.9.9",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.0.0/ROCKS-App-2.0.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.0.0",
       "icon": "brand.svg",
       "badge": "تحديث إجباري",
       "changesTitle": "ما الجديد؟",
       "changes": [
-        "روكس أب 1.9.9 — تحسين استقرار الإعلانات والمكافأة.",
-        "حفظ المشاهدة المعلّقة عند إغلاق التطبيق والعودة إليه.",
-        "تحقق واحد بعد اكتمال الإعلان، مع زر للتحقق لاحقًا ودون تشغيل إعلانات متتالية تلقائيًا.",
-        "تحسين رسائل عدم توفر الإعلان وأخطاء الاتصال، ومنع احتساب المشاهدة المكررة.",
-        "الحفاظ على قسم الذهبي والمظهر والملف المحلي ونسختَي Full وLite والتوقيع الأصلي."
+        "روكس أب 2.0.0 — واجهة نوفا موحّدة بمظهر ماتيريال وأسطح واضحة.",
+        "إزالة التصميم الكلاسيكي والزجاج وخلفيات ديسكورد، واعتماد 12 لونًا مختارًا: الأزرق المحيطي والعنابي والنعناع وألوان متنوعة.",
+        "تبسيط الملف الشخصي إلى الاسم والصورة المحلية فقط، دون بانر.",
+        "إزالة فحص سرعة الإنترنت والمتصفح العام وتبويباته وسجلّه من التطبيق.",
+        "الإبقاء على متصفح تطبيقات الذهبي المعزول وتنزيلاته الداخلية كما هي.",
+        "أنيميشن بداية تشغيل جديد وخفيف، يحترم تقليل الحركة؛ النسخة المخففة تدخل مباشرة.",
+        "الحفاظ على الاشتراكات والمكافآت والتحديثات والتنزيلات والتوقيع الأصلي وبيانات المستخدم."
       ],
       "features": [
         {
@@ -796,18 +798,18 @@
           "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
         }
       ],
-      "mandatoryVersionCode": 38,
-      "mandatoryMessage": "حدّث روكس أب إلى 1.9.9 لإصلاح التحقق من مكافآت الإعلانات وحفظ المشاهدة المعلقة وإظهار حالة موافقة Google.",
+      "mandatoryVersionCode": 39,
+      "mandatoryMessage": "حدّث روكس أب إلى 2.0.0 لاعتماد نوفا وتبسيط المظهر والملف الشخصي وإزالة الأدوات الزائدة.",
       "editions": {
         "lite": {
-          "versionName": "1.9.9",
-          "versionCode": 38,
-          "size": 6079015,
-          "sha256": "42e9628571b3952ef7061267b0717b153faf0a4690798670c74c03275dfb8687",
-          "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v1.9.9/ROCKS-App-Lite-1.9.9.apk",
+          "versionName": "2.0.0",
+          "versionCode": 39,
+          "size": 6024373,
+          "sha256": "f48a34f12bcd078efaab1e103906c8fe53173c97e54b7b5d8ea0a4b74cdff804",
+          "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.0.0/ROCKS-App-Lite-2.0.0.apk",
           "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
           "packageName": "com.rocks.app",
-          "mandatoryVersionCode": 38
+          "mandatoryVersionCode": 39
         }
       }
     }
@@ -817,5 +819,5 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-10-15T04:54:24.617882+00:00"
+  "updatedAt": "2026-10-15T13:08:11.082519+00:00"
 }
