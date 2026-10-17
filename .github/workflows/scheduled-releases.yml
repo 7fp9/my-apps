@@ -1,0 +1,77 @@
+name: Scheduled ROCKS releases
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rocks-release-publisher
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Publish releases whose date has arrived
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          """Public GitHub Actions publisher: metadata only; never app source or signing keys."""
+          import json,os,urllib.request,datetime,re,base64,copy
+          REPO='7fp9/my-apps'
+          CERT='0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2'
+          def due(plan,now):
+           at=datetime.datetime.fromisoformat(plan['availableAt'].replace('Z','+00:00'))
+           if at.tzinfo is None:raise ValueError('A timezone is required')
+           return at<=now
+          def validate(plan,release):
+           entry=plan['entry'];tag=plan['tag'];channel=plan['channel']
+           assert channel in ('stable','beta') and re.fullmatch(r'rocks-app-v[0-9A-Za-z.\-]+',tag)
+           assert entry['id']=='rocks-app' and entry['packageName']=='com.rocks.app' and entry['certificateSha256']==CERT
+           assert isinstance(entry['versionCode'],int) and entry['versionCode']>0 and re.fullmatch(r'[a-f0-9]{64}',entry['sha256'])
+           assert 0<entry['size']<=2147483648 and not entry.get('editions')
+           prefix=f'https://github.com/{REPO}/releases/download/{tag}/';url=entry['downloadUrl'];assert url.startswith(prefix)
+           name=url[len(prefix):];assert re.fullmatch(r'ROCKS-App-[0-9A-Za-z.\-]+\.apk',name) and 'Lite' not in name
+           assert release['tag_name']==tag
+           asset=next(a for a in release['assets'] if a['name']==name)
+           assert asset['size']==entry['size'] and asset.get('digest')=='sha256:'+entry['sha256']
+           assert (channel=='beta')==bool(re.search(r'alpha|beta|preview|nightly|rc',entry['versionName'],re.I))
+           return entry
+          def run():
+           token=os.environ['GH_TOKEN']
+           def api(path,payload=None,method=None):
+            req=urllib.request.Request('https://api.github.com/repos/'+REPO+'/'+path,data=None if payload is None else json.dumps(payload).encode(),headers={'Authorization':'Bearer '+token,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','User-Agent':'ROCKS-Scheduled-Releases'},method=method)
+            with urllib.request.urlopen(req,timeout=40) as response:return json.load(response)
+           def read(path):
+            item=api('contents/'+path+'?ref=main');return json.loads(base64.b64decode(item['content'])),item['sha']
+           def write(path,value,sha,message):
+            content=base64.b64encode((json.dumps(value,ensure_ascii=False,indent=2)+'\n').encode()).decode()
+            return api('contents/'+path,{'message':message,'content':content,'sha':sha,'branch':'main'},'PUT')
+           queue,queue_sha=read('scheduled-releases.json');assert queue['schemaVersion']==1
+           now=datetime.datetime.now(datetime.timezone.utc);pending=[p for p in queue['releases'] if not p.get('publishedAt') and due(p,now)]
+           if not pending:print('No scheduled release is due.');return
+           releases=api('releases?per_page=100')
+           for plan in sorted(pending,key=lambda p:p['entry']['versionCode']):
+            release=next(r for r in releases if r['tag_name']==plan['tag']);entry=copy.deepcopy(validate(plan,release))
+            # A retry after a completed release/canceled queue must never roll a channel back.
+            path='apps.json' if plan['channel']=='stable' else 'beta.json';catalog,sha=read(path)
+            if path=='apps.json':
+             current=next(a for a in catalog['apps'] if a['id']=='rocks-app')
+             if current['versionCode']>entry['versionCode']:raise ValueError('A newer stable version already exists')
+             if current['versionCode']==entry['versionCode'] and current['sha256']!=entry['sha256']:raise ValueError('Same version has different APK')
+            else:
+             current=catalog.get('beta')
+             if current and current['versionCode']>entry['versionCode']:raise ValueError('A newer Beta already exists')
+            entry['availableAt']=plan['availableAt']
+            api('releases/'+str(release['id']),{'draft':False,'prerelease':plan['channel']=='beta','make_latest':'true' if plan['channel']=='stable' else 'false'},'PATCH')
+            if path=='apps.json':
+             catalog['apps']=[entry if a['id']=='rocks-app' else a for a in catalog['apps']]
+             catalog['store'].update(versionCode=entry['versionCode'],versionName=entry['versionName']);catalog['updatedAt']=now.isoformat();catalog.pop('availableAt',None)
+            else:catalog.update(beta=entry,updatedAt=now.isoformat())
+            write(path,catalog,sha,'Publish scheduled '+plan['tag'])
+            plan['publishedAt']=now.isoformat();queue_write=write('scheduled-releases.json',queue,queue_sha,'Complete scheduled '+plan['tag']);queue_sha=queue_write['content']['sha']
+            print('Published',plan['tag'],plan['channel'])
+          if __name__=='__main__':run()
+          PY

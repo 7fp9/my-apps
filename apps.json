@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "2.0.0",
-    "versionCode": 39
+    "versionName": "2.0.1",
+    "versionCode": 40
   },
   "apps": [
     {
@@ -766,27 +766,26 @@
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "2.0.0",
-      "versionCode": 39,
+      "versionName": "2.0.1",
+      "versionCode": 40,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 6128410,
-      "sha256": "91f82f04e5df1be850e6b6fc9971e5d63acbcef7c05f87dbd1c4eab8d4fde840",
+      "size": 6133475,
+      "sha256": "9ffccf556a0b6a979c40c43f2a914a2c1ad2883842526ade09f7ca5bceaa5cd2",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.0.0/ROCKS-App-2.0.0.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.0.0",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.0.1/ROCKS-App-2.0.1.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.0.1",
       "icon": "brand.svg",
       "badge": "تحديث إجباري",
       "changesTitle": "ما الجديد؟",
       "changes": [
-        "روكس أب 2.0.0 — واجهة نوفا موحّدة بمظهر ماتيريال وأسطح واضحة.",
-        "إزالة التصميم الكلاسيكي والزجاج وخلفيات ديسكورد، واعتماد 12 لونًا مختارًا: الأزرق المحيطي والعنابي والنعناع وألوان متنوعة.",
-        "تبسيط الملف الشخصي إلى الاسم والصورة المحلية فقط، دون بانر.",
-        "إزالة فحص سرعة الإنترنت والمتصفح العام وتبويباته وسجلّه من التطبيق.",
-        "الإبقاء على متصفح تطبيقات الذهبي المعزول وتنزيلاته الداخلية كما هي.",
-        "أنيميشن بداية تشغيل جديد وخفيف، يحترم تقليل الحركة؛ النسخة المخففة تدخل مباشرة.",
-        "الحفاظ على الاشتراكات والمكافآت والتحديثات والتنزيلات والتوقيع الأصلي وبيانات المستخدم."
+        "إصدار 2.0.1 موحّد: إزالة النسخة المخففة وخيار التبديل؛ تُحدّث نسختا Full وLite السابقتان إلى التطبيق نفسه مع حفظ البيانات والتراخيص.",
+        "استقبال ملفات APK من المشاركة أو فتح الملف والسحب والإفلات المتوافق، مع زر استيراد يدوي؛ فحص هوية الملف والتوقيع والإصدار قبل إضافته للتنزيلات، والتثبيت بموافقة أندرويد.",
+        "زر دعم المطور في بطاقة الرئيسية يفتح creators.sa/7fp9 في متصفح الجهاز الخارجي.",
+        "قائمة المزيد أعلى الواجهة: إصدار تجريبي، للتحقق الاختياري من قناة Beta وتنزيلها وتثبيتها دون الاشتراك الإجباري في التجارب.",
+        "دعم تواريخ إتاحة التحديثات حسب وقت خادم المصدر، وتجهيز نشر GitHub المجدول للتحديثات المستقبلية؛ لا تُعرض التحديثات قبل موعدها.",
+        "حفظ تصميم نوفا والألوان والتراخيص والتنزيلات وتطبيقات الذهبي، والإعلانات الفعلية ما زالت معطّلة بانتظار الموافقة."
       ],
       "features": [
         {
@@ -798,20 +797,8 @@
           "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
         }
       ],
-      "mandatoryVersionCode": 39,
-      "mandatoryMessage": "حدّث روكس أب إلى 2.0.0 لاعتماد نوفا وتبسيط المظهر والملف الشخصي وإزالة الأدوات الزائدة.",
-      "editions": {
-        "lite": {
-          "versionName": "2.0.0",
-          "versionCode": 39,
-          "size": 6024373,
-          "sha256": "f48a34f12bcd078efaab1e103906c8fe53173c97e54b7b5d8ea0a4b74cdff804",
-          "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.0.0/ROCKS-App-Lite-2.0.0.apk",
-          "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-          "packageName": "com.rocks.app",
-          "mandatoryVersionCode": 39
-        }
-      }
+      "mandatoryVersionCode": 40,
+      "mandatoryMessage": "حدّث روكس أب إلى النسخة الموحدة 2.0.1 لمتابعة الاستخدام."
     }
   ],
   "features": {
@@ -819,5 +806,5 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-10-15T13:08:11.082519+00:00"
+  "updatedAt": "2026-10-17T13:46:18.828488+00:00"
 }
