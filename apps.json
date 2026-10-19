@@ -255,7 +255,7 @@
       "android": "Android 7+",
       "changesTitle": "ما الجديد في 27.2.3؟",
       "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-cinema-v27.2.3",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/untagged-4b3bc607a04e2d95e152/ROCKS-Cinema-27.2.3.apk",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-cinema-v27.2.3/ROCKS-Cinema-27.2.3.apk",
       "mandatoryVersionCode": 32,
       "mandatoryMessage": "تحديث إجباري إلى ROCKS Cinema 27.2.3: تحديث القاعدة وإصلاحات وتوافق مع الإصدار الجديد. ثبّته فوق نسخة روكس السابقة.",
       "importantNotice": "حدّث متجر ROCKS App إلى 1.8.3 أولًا. يلزم متجر روكس الأصلي وتجربة أو اشتراك فعّال أو ترخيص صالح لهذا التطبيق؛ مهلة انتهاء المدة ثابتة 24 ساعة.",
@@ -804,5 +804,5 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-10-19T11:22:48.688639+00:00"
+  "updatedAt": "2026-10-19T11:24:01.969764+00:00"
 }
