@@ -1,4 +1,45 @@
 {
   "schemaVersion": 1,
-  "beta": null
+  "updatedAt": "2026-10-20T03:21:46.961760+00:00",
+  "beta": {
+    "id": "rocks-app",
+    "name": "ROCKS App",
+    "subtitle": "روكس أب",
+    "category": "apps",
+    "summary": "تطبيقاتك وألعابك في مكان واحد.",
+    "description": "ROCKS App 2.0.7 Beta — تجربة تصميم الزجاج المائي مع إمكانية اختيار نوفا وإدارة الرجوع إلى أحدث نسخة مستقرة.",
+    "versionName": "2.0.7-beta",
+    "versionCode": 46,
+    "packageName": "com.rocks.app",
+    "minSdk": 26,
+    "android": "Android 8+",
+    "size": 6157972,
+    "sha256": "ce355e3edc800e15f22bfc1ec2f4d4d17c2d77ac7315db69eb9a4ca60799183f",
+    "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
+    "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.0.7-beta/ROCKS-App-2.0.7-beta.apk",
+    "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.0.7-beta",
+    "icon": "brand.svg",
+    "badge": "بيتا اختيارية",
+    "changesTitle": "ما الجديد في إصدار 2.0.7 Beta",
+    "changes": [
+      "تصميم Liquid Glass افتراضي: انكسار زجاجي محلي وحواف مضيئة وحركة مرنة عند اللمس، مكيّف من مكتبة liquid-glass-react المرخّصة MIT.",
+      "خيار تصميم الواجهة في الإعدادات ← المظهر للتبديل بين الزجاج المائي ونوفا مع حفظ الاختيار.",
+      "تنبيه بيتا في الرئيسية مع رابط إدارة النسخة التجريبية والتحقق من أحدث إصدار مستقر حقيقي من GitHub.",
+      "حماية الرجوع: تثبيت مستقر أحدث يحفظ البيانات؛ المستقر الأقدم يتطلب حذف بيتا يدويًا مع تحذير واضح، دون حذف تلقائي.",
+      "قناة Beta اختيارية منفصلة؛ الإصدار المستقر وقائمة تطبيقاته لا يُستبدلان بهذه التجربة.",
+      "مراعاة تقليل الحركة وAMOLED والتوقف عن المؤثرات عند مغادرة التطبيق، مع إبقاء التثبيت السريع ونسبة التحميل وطرق عرض المكتبة."
+    ],
+    "features": [
+      {
+        "title": "تحديثات مستقلة",
+        "text": "تحديث التطبيقات في صفحة التحديثات، وتحديث المتجر في صفحة حول."
+      },
+      {
+        "title": "تنزيل متكامل",
+        "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
+      }
+    ],
+    "mandatoryVersionCode": 0,
+    "mandatoryMessage": ""
+  }
 }
