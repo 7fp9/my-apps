@@ -1,0 +1,97 @@
+name: Sync app release metadata
+on:
+  release:
+    types: [published, edited]
+  push:
+    branches: [main]
+    paths: [apps.json]
+  schedule:
+    - cron: '19,49 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: rocks-app-metadata
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Update descriptions and notes for exact published APKs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          """Public release-metadata synchronization; never changes APK identity or licensing."""
+          import base64,copy,datetime,hashlib,json,os,re,urllib.request
+          REPO='7fp9/my-apps'
+          APP_IDS={'rocks-downloader','rocks-cinema','rocks-anime','witcher','rocks-manga'}
+          IDENTITY=('id','packageName','versionName','versionCode','downloadUrl','size','sha256','certificateSha256','mandatoryVersionCode')
+          
+          def section(body,titles):
+           lines=body.splitlines();capture=False;result=[]
+           for line in lines:
+            heading=re.match(r'^#{1,4}\s+(.+?)\s*#*$',line.strip())
+            if heading:
+             if capture:break
+             capture=heading[1].strip().lower() in titles;continue
+            if capture:result.append(line)
+           return '\n'.join(result).strip()
+          
+          def sync_entry(original,release):
+           a=copy.deepcopy(original);url=a['downloadUrl'];prefix='https://github.com/'+REPO+'/releases/download/'
+           if a['id'] not in APP_IDS or release.get('draft') or not url.startswith(prefix):return original
+           tag,name=url[len(prefix):].split('/',1)
+           if release.get('tag_name')!=tag:return original
+           asset=next((x for x in release.get('assets',[]) if x.get('name')==name),None)
+           if not asset or asset.get('size')!=a['size'] or asset.get('digest')!='sha256:'+a['sha256']:return original
+           body=(release.get('body') or '').replace('\r\n','\n').replace('\r','\n').strip()[:24000]
+           if not body:return original
+           # Only release-owned prose is copied; text remains plain data and is escaped by the app.
+           bullets=[m.group(1).strip() for line in body.splitlines() if (m:=re.match(r'^\s*[-*•]\s+(.+)',line))][:50]
+           bullets=[x for x in bullets if not re.match(r'(?i)^(sha-?256|certificate|asset digest)\s*:',x)]
+           if not bullets:bullets=[body[:3000]]
+           current=a.get('description','');old_hash=a.get('metadataDescriptionSha256','')
+           base=a.get('baseDescription',current) if hashlib.sha256(current.encode()).hexdigest()==old_hash else current
+           explicit=section(body,{'description','about the app','about','الوصف','عن التطبيق','وصف التطبيق'})
+           if explicit:base=explicit
+           # Correct versions attached to THIS app's name, leaving platform/engine/prerequisite versions intact.
+           names={a.get('name',''),'ROCKS Downloader' if a['id']=='rocks-downloader' else a.get('name','')}
+           for name in names:
+            if name:base=re.sub(re.escape(name)+r'\s+v?\d+(?:\.\d+)+(?:[-+][a-zA-Z0-9.]+)?',lambda m:name+' '+a['versionName'],base,flags=re.I)
+           summary='\n'.join('• '+x for x in bullets[:4])
+           description=base.rstrip()+'\n\nمستجدات إصدار '+a['versionName']+'\n'+summary
+           a.update(baseDescription=base,description=description,changes=bullets,changesTitle='ما الجديد في إصدار '+a['versionName'],metadataVersionCode=a['versionCode'],metadataVersionName=a['versionName'],metadataReleaseId=release['id'],releaseNotes=body,metadataDescriptionSha256=hashlib.sha256(description.encode()).hexdigest())
+           if a.get('mandatoryVersionCode',0)>0:a['mandatoryMessage']='ثبّت الإصدار '+a['versionName']+' من '+a['name']+' باستخدام متجر روكس الأصلي المحدّث. حدّث فوق نسختك السابقة للحفاظ على بياناتك؛ التثبيت بموافقتك عبر أندرويد.'
+           feature_text=section(body,{'features','المميزات','المزايا','مميزات التطبيق'})
+           if feature_text:
+            rows=[re.sub(r'^\s*[-*•]\s*','',x).strip() for x in feature_text.splitlines() if re.match(r'^\s*[-*•]\s+',x)]
+            if rows:a['features']=[{'title':x.split(':',1)[0][:90],'text':x.split(':',1)[1].strip() if ':' in x else x} for x in rows[:30]]
+           assert all(a.get(k)==original.get(k) for k in IDENTITY)
+           if a!=original:a['metadataUpdatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+           return a
+          
+          def run():
+           token=os.environ['GH_TOKEN']
+           def api(path,payload=None,method=None):
+            req=urllib.request.Request('https://api.github.com/repos/'+REPO+'/'+path,data=None if payload is None else json.dumps(payload).encode(),headers={'Authorization':'Bearer '+token,'Accept':'application/vnd.github+json','User-Agent':'ROCKS-Metadata-Sync'},method=method)
+            with urllib.request.urlopen(req,timeout=40) as response:return json.load(response)
+           for attempt in range(3):
+            item=api('contents/apps.json?ref=main');catalog=json.loads(base64.b64decode(item['content']));changed=[]
+            for i,a in enumerate(catalog['apps']):
+             if a['id'] not in APP_IDS:continue
+             prefix='https://github.com/'+REPO+'/releases/download/'
+             if not a.get('downloadUrl','').startswith(prefix):continue
+             if a.get('availableAt') and datetime.datetime.fromisoformat(a['availableAt'].replace('Z','+00:00'))>datetime.datetime.now(datetime.timezone.utc):continue
+             tag=a['downloadUrl'][len(prefix):].split('/',1)[0]
+             updated=sync_entry(a,api('releases/tags/'+tag))
+             if updated!=a:catalog['apps'][i]=updated;changed.append(a['id'])
+            if not changed:print('App metadata is already current.');return
+            catalog['updatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat()
+            encoded=base64.b64encode((json.dumps(catalog,ensure_ascii=False,indent=2)+'\n').encode()).decode()
+            try:api('contents/apps.json',{'message':'Sync descriptions and notes for current app releases','content':encoded,'sha':item['sha'],'branch':'main'},'PUT');print('Metadata updated:',', '.join(changed));return
+            except urllib.error.HTTPError as e:
+             if e.code!=409 or attempt==2:raise
+          if __name__=='__main__':run()
+          PY
