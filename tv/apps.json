@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "channel": "android-tv",
+  "store": {
+    "id": "rocks-app",
+    "name": "ROCKS App TV",
+    "packageName": "com.rocks.app.tv",
+    "platform": "android-tv",
+    "category": "apps",
+    "hidden": true,
+    "versionName": "1.0",
+    "versionCode": 1,
+    "minSdk": 26,
+    "android": "Android TV 8.0+",
+    "size": 309500,
+    "sha256": "363c3d9c59cae5262dc1ce985e7536b3ecd633f04b18e1b62852b1a262d5d69f",
+    "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
+    "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-tv-v1.0/ROCKS-App-TV-1.0.apk",
+    "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-tv-v1.0",
+    "icon": "icons/rocks-app.png",
+    "subtitle": "متجر تطبيقات التلفزيون",
+    "description": "نسخة مستقلة للتلفزيون بقائمة تطبيقات TV منفصلة.",
+    "changes": [
+      "الإصدار الأول من ROCKS App TV.",
+      "مكتبة فارغة جاهزة لإضافة تطبيقات TV.",
+      "تنقّل بالريموت وتحديثات TV مستقلة.",
+      "الاشتراكات وحالة العضوية وتفعيل الأكواد."
+    ]
+  },
+  "apps": []
+}
