@@ -8,25 +8,24 @@
     "platform": "android-tv",
     "category": "apps",
     "hidden": true,
-    "versionName": "1.1",
-    "versionCode": 4,
+    "versionName": "1.2",
+    "versionCode": 5,
     "minSdk": 26,
     "android": "Android TV 8.0+",
-    "size": 434355,
-    "sha256": "1f4435d29e7aeeb10bb79761f79a7e77fa5586f56ead7ae29d9663010f65975c",
+    "size": 443250,
+    "sha256": "f96b44aa749f7cc976c94737b928e971131edcde0490ee3b1fd050e62ec68e70",
     "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-    "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-tv-v1.1/ROCKS-App-TV-1.1.apk",
-    "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-tv-v1.1",
+    "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-tv-v1.2/ROCKS-App-TV-1.2.apk",
+    "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-tv-v1.2",
     "icon": "icons/rocks-app.svg",
     "subtitle": "متجر تطبيقات التلفزيون",
-    "description": "متجر مستقل لتطبيقات Android TV، ببطاقات مدمجة وتحكم بالريموت وتحديثات قناة TV على GitHub.",
+    "description": "متجر مستقل لتطبيقات Android TV، ببطاقات مدمجة وتحكم بالريموت وألوان عنابي وزمردي وأزرق وذهبي وأيقونة تتبع اللون المختار.",
     "changes": [
-      "بطاقات تطبيقات مستطيلة أصغر: الأيقونة والاسم والوصف وزر التثبيت على اليسار.",
-      "إضافة الأسود AMOLED إلى الداكن والفاتح.",
-      "عرض تحديثات التطبيقات وإصلاح القائمة القديمة عبر جلب قناة TV مباشرة من GitHub.",
-      "نقل التحديثات أسفل الإعدادات وحذف زر الاشتراكات.",
-      "زر الرجوع من المكتبة يعيدك إلى الشاشة الرئيسية دون نافذة تأكيد.",
-      "إضافة ROCKS Cinema TV 3.0.1 وإبقاء ROCKS Home TV 3.2 في قناة التلفزيون المستقلة."
+      "إضافة مظاهر عنابي وزمردي وأزرق وذهبي من إعدادات المتجر.",
+      "يتغير شعار المتجر وأيقونته في قائمة تطبيقات التلفزيون بحسب اللون المختار، مع حفظ الاختيار.",
+      "الألوان متاحة مع المظهر الداكن والفاتح والأسود AMOLED.",
+      "الاحتفاظ بالبطاقات المدمجة والتحكم بالريموت وقناة تحديثات Android TV المستقلة.",
+      "تضمين قائمة التطبيقات المحدّثة مع ROCKS Home TV 4.6."
     ]
   },
   "apps": [
@@ -83,5 +82,5 @@
       ]
     }
   ],
-  "catalogVersion": 5
+  "catalogVersion": 6
 }
