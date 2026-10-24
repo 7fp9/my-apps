@@ -8,25 +8,25 @@
     "platform": "android-tv",
     "category": "apps",
     "hidden": true,
-    "versionName": "1.3",
-    "versionCode": 6,
+    "versionName": "1.4.1",
+    "versionCode": 7,
     "minSdk": 26,
     "android": "Android TV 8.0+",
-    "size": 621006,
-    "sha256": "109e09ea6549f67434b5bc9037e8da991ec3a3b1f40fd69d3021775b050893df",
+    "size": 2293114,
+    "sha256": "00aaed09e1e40349974bc2469016888e5fe86b49327790c03ee428d6112fa0ae",
     "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-    "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-tv-v1.3/ROCKS-App-TV-1.3.apk",
-    "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-tv-v1.3",
+    "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/untagged-65ddb8b891f92e2d65c6/ROCKS-App-TV-1.4.1.apk",
+    "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-tv-v1.4.1",
     "icon": "icons/rocks-app.svg",
     "subtitle": "متجر تطبيقات التلفزيون",
-    "description": "متجر Android TV بتحكم الريموت ومظاهر متعددة، يدعم ملفات APK وحزم APKM وXAPK المقسّمة، مع stc tv وربط فحص تحديثاته بمصدر APKMirror.",
+    "description": "متجر تطبيقات Android TV بتحكم الريموت ومظهر ثابت، مع دليل 122 تطبيقًا ولعبة في 10 تصنيفات والتثبيت الرسمي عبر Google Play، ودعم ملفات APK وحزم APKM وXAPK غير المشفرة.",
     "changes": [
-      "إضافة stc tv - Android TV 10.3.0 بحزمته الأصلية وتوقيع الناشر.",
-      "دعم تثبيت APK وحزم APKM وXAPK المقسّمة غير المشفرة، مع اختيار أجزاء المعالج المناسبة.",
-      "زر تثبيت من ملف في التنزيلات والإعدادات لاستيراد الملفات من USB أو ذاكرة الجهاز.",
-      "فحص إصدارات stc tv على APKMirror عند فتح المتجر أو التحقق من التحديثات، مع صفحة المصدر داخل المتجر لتنزيل الإصدارات الجديدة.",
-      "التحقق من توقيع كل جزء وهوية التطبيق ورقم الإصدار قبل التثبيت، مع نافذة موافقة أندرويد المعتادة.",
-      "الاحتفاظ بمظاهر المتجر وأيقوناته وقناة التلفزيون المستقلة."
+      "إزالة السمات الملونة وخيارات تغيير الأيقونة، وإبقاء مظهر داكن وفاتح وAMOLED ثابت.",
+      "إلغاء تبديل مداخل تشغيل التطبيق عند تغيير المظهر أو استئناف التطبيق، مع توافق إعدادات النسخ السابقة.",
+      "تحسين حركة التركيز والانتقال، ودعم تقليل الحركة، وحفظ موضع التصفح عند الرجوع من التفاصيل.",
+      "قسم تطبيقات TV: 122 تطبيقًا ولعبة في 10 تصنيفات بصفوف أفقية مناسبة للريموت.",
+      "بحث وتصنيفات وتفاصيل التطبيق وأيقونته وناشره وتقييمه، مع زر التثبيت من Google Play.",
+      "فتح مكتبة Google Play الكاملة على التلفاز لاستكشاف بقية التطبيقات المتوافقة مع الجهاز."
     ]
   },
   "apps": [
@@ -112,5 +112,5 @@
       ]
     }
   ],
-  "catalogVersion": 7
+  "catalogVersion": 8
 }
