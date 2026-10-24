@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "2.0.9",
-    "versionCode": 49
+    "versionName": "2.1.0",
+    "versionCode": 50
   },
   "apps": [
     {
@@ -799,24 +799,25 @@
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "2.0.9",
-      "versionCode": 49,
+      "versionName": "2.1.0",
+      "versionCode": 50,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 6146233,
-      "sha256": "59b064cb6a6f75a91238542e5bc6e65ae5ce6bf25f0e56fbc0bd4254da7ac40b",
+      "size": 6326446,
+      "sha256": "7d312cf0b105f0010619387688a10baf50a594dca56dd00a5af8150adc42bf19",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.0.9/ROCKS-App-2.0.9.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.0.9",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.1.0/ROCKS-App-2.1.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.1.0",
       "icon": "brand.svg",
       "badge": "مستقرة · تحديث إجباري",
-      "changesTitle": "ما الجديد في إصدار 2.0.9",
+      "changesTitle": "ما الجديد في إصدار 2.1.0",
       "changes": [
-        "حذف خيارات المطور بالكامل من المتجر.",
-        "إلغاء تفعيل خيارات المطور بالضغط المتكرر على رقم الإصدار.",
-        "إزالة أدوات خيارات المطور وصفحاتها وإعدادات التكبير وعكس الألوان المحفوظة.",
-        "الإبقاء على إعدادات المظهر وحجم الخط والتنزيلات والتراخيص."
+        "دعم استيراد وتثبيت APK وحزم XAPK وAPKM غير المشفّرة ذات أجزاء APK.",
+        "اختيار صيغة الملف عند الاستيراد، وظهور روكس آب ضمن خيارات فتح ومشاركة ملفات التثبيت وفق مدير الملفات.",
+        "فحص توقيع كل جزء وهوية الحزمة والإصدار، واختيار أجزاء المعالج المناسبة قبل موافقة التثبيت في أندرويد.",
+        "تأثير ضغط ناعم وتعبئة عند الضغط المطوّل على الأزرار، بألوان السمة المختارة.",
+        "تحسين صفحة حول روكس آب بمعلومات النسخة والصيغ المدعومة واختصارات الاستيراد ونسخ رقم الإصدار."
       ],
       "features": [
         {
@@ -828,8 +829,8 @@
           "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
         }
       ],
-      "mandatoryVersionCode": 49,
-      "mandatoryMessage": "حدّث روكس أب إلى الإصدار المستقر 2.0.9 لمتابعة الاستخدام."
+      "mandatoryVersionCode": 50,
+      "mandatoryMessage": "حدّث روكس أب إلى الإصدار المستقر 2.1.0 لمتابعة الاستخدام."
     }
   ],
   "features": {
@@ -837,5 +838,5 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-10-23T09:16:35.998741+00:00"
+  "updatedAt": "2026-10-24T14:47:30.240017+00:00"
 }
