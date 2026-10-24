@@ -15,7 +15,7 @@
     "size": 2293114,
     "sha256": "00aaed09e1e40349974bc2469016888e5fe86b49327790c03ee428d6112fa0ae",
     "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-    "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/untagged-65ddb8b891f92e2d65c6/ROCKS-App-TV-1.4.1.apk",
+    "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-tv-v1.4.1/ROCKS-App-TV-1.4.1.apk",
     "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-tv-v1.4.1",
     "icon": "icons/rocks-app.svg",
     "subtitle": "متجر تطبيقات التلفزيون",
@@ -112,5 +112,5 @@
       ]
     }
   ],
-  "catalogVersion": 8
+  "catalogVersion": 9
 }
