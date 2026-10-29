@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "2.1.1",
-    "versionCode": 51
+    "versionName": "2.2.0",
+    "versionCode": 52
   },
   "apps": [
     {
@@ -799,22 +799,25 @@
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "2.1.1",
-      "versionCode": 51,
+      "versionName": "2.2.0",
+      "versionCode": 52,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 6326610,
-      "sha256": "4a2378bc1b7d874ca49896ef2175fecf29e97c403acff434f8f2989392a84bec",
+      "size": 6343177,
+      "sha256": "e8e98543968454845713e30a3cf3347dc61c0bcf143194dc794c035b06074cc1",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.1.1/ROCKS-App-2.1.1.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.1.1",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.2.0/ROCKS-App-2.2.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.2.0",
       "icon": "brand.svg",
       "badge": "مستقرة · تحديث إجباري",
-      "changesTitle": "ما الجديد في إصدار 2.1.1",
+      "changesTitle": "ما الجديد في إصدار 2.2.0",
       "changes": [
-        "تحسينات للتوافق مع أندرويد 17، مع تحسينات وإصلاحات في المتجر.",
-        "تحسين إعدادات أمان الاتصال وإصلاح بقاء تأثير الضغط عند الانتقال بين الصفحات."
+        "ثيم أساسي بأزرق داكن وفاتح مستوحى من Prime Video، مع إبقاء بقية السمات قابلة للاختيار.",
+        "لوحة ترحيب وعضوية مختصرة بزرّين متجاورين: دعم المطور يمينًا وإدارة الاشتراك يسارًا؛ إلغاء الاشتراك داخل صفحة إدارته فقط.",
+        "عروض حصرية بشعار Prime Video الأزرق وسهم الابتسامة، ومربعين لمدتي3 و6 أشهر مع حركة خفيفة. الأسعار والتفاصيل تظهر من «اكتشف العرض».",
+        "كود R4S للعروض فقط: 3 أشهر بـ17.50 بدل23.50 ريال، و6 أشهر بـ32.95 بدل40.55 ريال.",
+        "نموذج الاسم والجهاز، ومراجعة المبلغ والشروط قبل فتح مسودة الطلب للمالك عبر تليجرام."
       ],
       "features": [
         {
@@ -826,8 +829,8 @@
           "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
         }
       ],
-      "mandatoryVersionCode": 51,
-      "mandatoryMessage": "حدّث روكس أب إلى الإصدار المستقر 2.1.1 لمتابعة الاستخدام."
+      "mandatoryVersionCode": 52,
+      "mandatoryMessage": "حدّث روكس أب إلى الإصدار المستقر 2.2.0 لمتابعة الاستخدام."
     }
   ],
   "features": {
@@ -835,5 +838,5 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-10-27T15:04:50.639397+00:00"
+  "updatedAt": "2026-10-29T11:21:34.949513+00:00"
 }
