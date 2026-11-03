@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "2.2.2",
-    "versionCode": 54
+    "versionName": "2.2.3",
+    "versionCode": 55
   },
   "apps": [
     {
@@ -844,24 +844,24 @@
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "2.2.2",
-      "versionCode": 54,
+      "versionName": "2.2.3",
+      "versionCode": 55,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 6408024,
-      "sha256": "d43cac6d0bc06fb27ab2b2fa90906b8571e45ca8aedf6256f0d8a05ad360c37c",
+      "size": 6408982,
+      "sha256": "30f2edb82641cb876472cc01c4c7761173329f5f91b8f9f92685f4291b205282",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.2.2/ROCKS-App-2.2.2.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.2.2",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.2.3/ROCKS-App-2.2.3.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.2.3",
       "icon": "brand.svg",
       "badge": "مستقرة · تحديث إجباري",
-      "changesTitle": "ما الجديد في إصدار2.2.2",
+      "changesTitle": "ما الجديد في إصدار2.2.3",
       "changes": [
-        "نقل ROCKS ANIME إلى التطبيقات غير المتاحة حاليًا، مع تنبيه مراجعة السيرفرات وظهوره أولًا ضمن بطاقات روكس.",
-        "إضافة AniTaku 0.1 باسمه وأيقونته وملفه الأصلي، كبديل مجاني دون اشتراك في روكس أب.",
-        "تنبيه واضح لتطابق معرّف الحزمة واختلاف التوقيع؛ احذف روكس أنيمي يدويًا قبل تثبيت AniTaku، مع بيان أن الحذف يحذف البيانات المحلية.",
-        "إبقاء باقي التطبيقات والتراخيص والعروض وطرق التثبيت دون تغيير."
+        "إضافة WIT ANIME 2.1.0 إلى المتجر كتطبيق مجاني.",
+        "واجهة أنمي بخط ثمانية و17 سمة وفلاتر الموقع وترقيم الصفحات.",
+        "حفظ القوائم والصور محليًا مع صفحة لمسح الملفات المؤقتة، والإبقاء على مشغّل الموقع الأصلي.",
+        "مساعدة اتصال تفتح تطبيق Cloudflare 1.1.1.1 الرسمي؛ لا يتضمن التطبيق نفق VPN داخليًا."
       ],
       "features": [
         {
@@ -875,6 +875,54 @@
       ],
       "mandatoryVersionCode": 54,
       "mandatoryMessage": "حدّث روكس أب إلى الإصدار المستقر2.2.2 لمتابعة الاستخدام."
+    },
+    {
+      "id": "wit-anime",
+      "packageName": "app.witanime.mobile",
+      "versionCode": 3,
+      "versionName": "2.1.0",
+      "minSdk": 26,
+      "sha256": "19f644dc0cadfb156dc1bf57b4c2584072daa2646a23141dbfcdbce1888c962f",
+      "size": 1157631,
+      "certificateSha256": "8913bb2253196e28afa8496df74247fac5cd9b477990b770c2cd30fbf3642add",
+      "icon": "wit-anime.svg",
+      "supportedAbis": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "name": "WIT ANIME",
+      "subtitle": "ويت أنمي",
+      "category": "apps",
+      "android": "Android 8+",
+      "summary": "مشاهدة الأنمي وأفلام ومسلسلات الأنمي بدون إعلانات.",
+      "description": "تطبيق لمشاهدة الأنمي بدون إعلانات وأفلام ومسلسلات الأنمي فقط.\n\nخط ثمانية و17 سمة، مع فلاتر الموقع وقوائم وصور محفوظة على الجهاز. تشغيل الحلقات يحتاج إلى الإنترنت.\n\nمساعدة الاتصال تفتح تطبيق Cloudflare 1.1.1.1 الرسمي، الذي يحتاج التثبيت وموافقة المستخدم على VPN؛ ليست VPN داخلية أو اتصالًا تلقائيًا.",
+      "badge": "مجاني",
+      "free": true,
+      "features": [
+        {
+          "title": "تحميل مرة واحدة",
+          "text": "قوائم وصور محفوظة محليًا، مع تحديث يدوي وتحميل المزيد ومسح المؤقتات."
+        },
+        {
+          "title": "تصفّح حسب ذوقك",
+          "text": "فلاتر الموقع وترقيم الصفحات، وخط ثمانية و17 سمة."
+        },
+        {
+          "title": "مشغّل الموقع",
+          "text": "المشغّل الأصلي ومصادر الموقع. يعتمد توفر التشغيل على الموقع والسيرفر المختار."
+        }
+      ],
+      "changes": [
+        "إضافة WIT ANIME 2.1.0 إلى المتجر كتطبيق مجاني.",
+        "واجهة أنمي بخط ثمانية و17 سمة وفلاتر الموقع وترقيم الصفحات.",
+        "حفظ القوائم والصور محليًا مع صفحة لمسح الملفات المؤقتة، والإبقاء على مشغّل الموقع الأصلي.",
+        "مساعدة اتصال تفتح تطبيق Cloudflare 1.1.1.1 الرسمي؛ لا يتضمن التطبيق نفق VPN داخليًا."
+      ],
+      "metadataVersionCode": 3,
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/wit-anime-v2.1.0/WIT-ANIME-2.1.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/wit-anime-v2.1.0"
     }
   ],
   "features": {
@@ -882,5 +930,5 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-11-03T03:11:03.104602+00:00"
+  "updatedAt": "2026-11-03T16:10:53.989334+00:00"
 }
