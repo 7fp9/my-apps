@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "2.2.4",
-    "versionCode": 56
+    "versionName": "2.2.5",
+    "versionCode": 57
   },
   "apps": [
     {
@@ -796,26 +796,22 @@
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "2.2.4",
-      "versionCode": 56,
+      "versionName": "2.2.5",
+      "versionCode": 57,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 6409018,
-      "sha256": "ab35d358f4d0eb2398d693e94fe7e03d719525f0e8667b845d637600a8cfa950",
+      "size": 6409010,
+      "sha256": "cda95b28e45ff1ee8dcc3f0317887275faa4412bdb730929e891e328430c2b1a",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.2.4/ROCKS-App-2.2.4.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.2.4",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/untagged-e6ccb3cbffe7438aaab1/ROCKS-App-2.2.5.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.2.5",
       "icon": "brand.svg",
       "badge": "مستقرة · تحديث إجباري",
-      "changesTitle": "ما الجديد في إصدار2.2.4",
+      "changesTitle": "ما الجديد في إصدار 2.2.5",
       "changes": [
-        "استبدال بطاقة AniTaku بتطبيق ROCKS ANIME WIT المجاني، مع تحديث بطاقة WIT الحالية دون إنشاء تطبيق مكرر.",
-        "أيقونة RW بيضاء على أزرق، وظهور الاسم والأيقونة الجديدين في المكتبة والتنزيلات والتحديثات.",
-        "تحديث التطبيق يضم الإعدادات المباشرة والسمة الزرقاء وتحسين التنقل وإغلاق مشغّل الحلقة عند مغادرة المشاهدة.",
-        "توجيه تنبيه مراجعة روكس أنيمي القديم إلى البديل الجديد، مع إبقائه ضمن التطبيقات غير المتاحة.",
-        "لا يلزم حذف AniTaku لتثبيت ROCKS ANIME WIT؛ أما WIT ANIME السابق فيُحدّث فوقه بنفس الحزمة والتوقيع.",
-        "توضيح دعم واجهة الجوال والتابلت في صفحة التطبيق، ومراجعة العرض على المقاسين."
+        "إضافة سمة «برتقالي ملكي» تجمع البرتقالي والأسود الملكي، مع ألوان متناسقة للأزرار والقوائم والأيقونات.",
+        "أصبح مجموع السمات 18 سمة، ويمكن اختيار السمة الجديدة من الإعدادات ← المظهر."
       ],
       "features": [
         {
@@ -827,8 +823,8 @@
           "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
         }
       ],
-      "mandatoryVersionCode": 56,
-      "mandatoryMessage": "حدّث روكس أب إلى الإصدار المستقر2.2.4 لمتابعة الاستخدام."
+      "mandatoryVersionCode": 57,
+      "mandatoryMessage": "حدّث روكس أب إلى الإصدار المستقر 2.2.5 لمتابعة الاستخدام."
     },
     {
       "id": "wit-anime",
@@ -901,5 +897,5 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-11-03T16:51:43.663597+00:00"
+  "updatedAt": "2026-11-05T17:38:24.572397+00:00"
 }
