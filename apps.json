@@ -830,11 +830,11 @@
     {
       "id": "wit-anime",
       "packageName": "app.witanime.mobile",
-      "versionCode": 6,
-      "versionName": "2.2.2",
+      "versionCode": 7,
+      "versionName": "3.0",
       "minSdk": 26,
-      "sha256": "798a45e24f1d30c0035831860d3d5a11f4a061e6392d20ce7533a41ed9e11107",
-      "size": 1161463,
+      "sha256": "b3dfbce7ae13bcd5a393b69210118cfd6e3969a5d64fac4880dc27ae0e7eaddb",
+      "size": 2751691,
       "certificateSha256": "8913bb2253196e28afa8496df74247fac5cd9b477990b770c2cd30fbf3642add",
       "icon": "wit-anime.svg",
       "supportedAbis": [
@@ -878,17 +878,18 @@
         }
       ],
       "changes": [
-        "تطبيق حجب الإعلانات داخل إطار الفيديو عند تفعيل مانع الإعلانات، بما يشمل الحلقات المفتوحة من البحث.",
-        "الحفاظ على أدوات مشغّل الموقع الأصلية في صفحة الحلقة."
+        "استخدام نواة Rust لمعالجة قوائم الحلقات وبيانات التطبيق.",
+        "إضافة دفعات الحلقات الأقدم إلى القائمة الحالية دون إعادة رسمها بالكامل.",
+        "تحميل الصور خارج مسار المشغّل مع الإبقاء على أدوات التشغيل الأصلية."
       ],
-      "metadataVersionCode": 6,
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/wit-anime-v2.2.2/ROCKS-ANIME-WIT-2.2.2.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/wit-anime-v2.2.2",
+      "metadataVersionCode": 7,
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/wit-anime-v3.0/ROCKS-ANIME-WIT-3.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/wit-anime-v3.0",
       "supportedDevices": [
         "phone",
         "tablet"
       ],
-      "changesTitle": "ما الجديد في إصدار 2.2.2"
+      "changesTitle": "ما الجديد في إصدار 3.0"
     }
   ],
   "features": {
@@ -896,7 +897,7 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-11-06T18:40:59.805236+00:00",
+  "updatedAt": "2026-11-06T19:13:16.174112+00:00",
   "premiumPromotion250": {
     "startsAt": 1793990133000,
     "endsAt": 1794249333000
