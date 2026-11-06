@@ -830,11 +830,11 @@
     {
       "id": "wit-anime",
       "packageName": "app.witanime.mobile",
-      "versionCode": 5,
-      "versionName": "2.2.1",
+      "versionCode": 6,
+      "versionName": "2.2.2",
       "minSdk": 26,
-      "sha256": "9efc11d7868e5441ce32a9160ce919c90264f798a7f486a652b85e1ec8004f47",
-      "size": 1161107,
+      "sha256": "798a45e24f1d30c0035831860d3d5a11f4a061e6392d20ce7533a41ed9e11107",
+      "size": 1161463,
       "certificateSha256": "8913bb2253196e28afa8496df74247fac5cd9b477990b770c2cd30fbf3642add",
       "icon": "wit-anime.svg",
       "supportedAbis": [
@@ -878,19 +878,17 @@
         }
       ],
       "changes": [
-        "إصلاح مسارات التنقل بين الأزرار السفلية لتحسين الثبات عند التبديل السريع.",
-        "إيقاف الحلقة وصوتها عند مغادرة المشاهدة مع الحفاظ على ثبات واجهة العرض.",
-        "تجاهل نتائج التحميل والأخطاء المتأخرة التي تخص صفحة غادرها المستخدم.",
-        "تحسين الانتقال عبر الروابط الداخلية والنوافذ الخارجية واستعادة الواجهة عند توقف عملية العرض."
+        "تطبيق حجب الإعلانات داخل إطار الفيديو عند تفعيل مانع الإعلانات، بما يشمل الحلقات المفتوحة من البحث.",
+        "الحفاظ على أدوات مشغّل الموقع الأصلية في صفحة الحلقة."
       ],
-      "metadataVersionCode": 5,
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/wit-anime-v2.2.1/ROCKS-ANIME-WIT-2.2.1.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/wit-anime-v2.2.1",
+      "metadataVersionCode": 6,
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/wit-anime-v2.2.2/ROCKS-ANIME-WIT-2.2.2.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/wit-anime-v2.2.2",
       "supportedDevices": [
         "phone",
         "tablet"
       ],
-      "changesTitle": "ما الجديد في إصدار 2.2.1"
+      "changesTitle": "ما الجديد في إصدار 2.2.2"
     }
   ],
   "features": {
@@ -898,7 +896,7 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-11-06T18:35:41.274440+00:00",
+  "updatedAt": "2026-11-06T18:40:59.805236+00:00",
   "premiumPromotion250": {
     "startsAt": 1793990133000,
     "endsAt": 1794249333000
