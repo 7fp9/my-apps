@@ -515,11 +515,11 @@
     {
       "id": "manga-slayer",
       "packageName": "com.abmo.mangaslayer",
-      "versionCode": 41,
-      "versionName": "3.1.4",
-      "minSdk": 22,
-      "size": 14549553,
-      "sha256": "e45c7732ce7c96481afc4ae0d35a0fb65b4fed17cf867d51642d6b7e8ab18ba8",
+      "versionCode": 46,
+      "versionName": "3.1.8",
+      "minSdk": 23,
+      "size": 11615981,
+      "sha256": "e50e5f7ef6e97860bee2745dac1b54781488c6ff179dff444c996c9126c3c90d",
       "certificateSha256": "c84a3635f877f0ac0e28488f7dbb70bb652cf21fe70d8a6c7d2a0252d9b0d167",
       "icon": "manga-slayer.png",
       "supportedAbis": [
@@ -531,33 +531,29 @@
       "name": "Manga Slayer",
       "subtitle": "مانجا سلاير",
       "summary": "قراءة المانجا المترجمة للعربية.",
-      "description": "مانجا سلاير للقراءة بالعربية، من الإصدار المستقر 3.1.4 المرتبط بموقع mangaslayers.com. أضفنا نسخة universal بتوقيعها الأصلي.",
+      "description": "مانجا سلاير لقراءة المانجا المترجمة للعربية. الإصدار المستقر 3.1.8 من المصدر المرتبط بموقع mangaslayers.com يتضمن إصلاح عدم تحميل الصور، بحسب المطوّر. نسخة universal بتوقيعها الأصلي، وتتطلب Android 6 أو أحدث.",
       "sourceUrl": "https://mangaslayers.com/",
       "badge": "النسخة المستقرة",
       "features": [
         {
           "title": "مانجا بالعربية",
-          "text": "مكتبة مانجا مترجمة للعربية وواجهة مخصصة لقراءة الفصول."
+          "text": "مكتبة مانجا مترجمة للعربية وواجهة لقراءة الفصول."
         },
         {
-          "title": "التحكم بجودة الصور",
-          "text": "الإصدار 3.1.4 أعاد خيارات جودة الصور."
-        },
-        {
-          "title": "تحسينات المصدر",
-          "text": "محلل مصدر ديناميكي وإصلاحات للاستقرار والأداء في النسخة المستقرة."
+          "title": "إصلاح تحميل الصور",
+          "text": "الإصدار المستقر 3.1.8 يتضمن إصلاح عدم تحميل الصور بحسب ملاحظات المطوّر."
         }
       ],
       "changes": [
-        "النسخة المستقرة 3.1.4، رقم الإصدار الداخلي 41.",
-        "إعادة التحكم بجودة الصور وتحسين التعامل مع المصدر.",
-        "إصلاحات للاستقرار والأداء بحسب ملاحظات المطوّر."
+        "إصلاح مشكلة عدم تحميل الصور، بحسب ملاحظات المطوّر للإصدار المستقر 3.1.8."
       ],
       "category": "apps",
-      "android": "Android 5.1+",
-      "changesTitle": "معلومات النسخة المضافة",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-05",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-05/manga-slayer-3.1.4.apk"
+      "android": "Android 6+",
+      "changesTitle": "ما الجديد في إصدار 3.1.8",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/manga-slayer-v3.1.8",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/manga-slayer-v3.1.8/Manga-Slayer-3.1.8.apk",
+      "metadataVersionCode": 46,
+      "sourceReleaseUrl": "https://github.com/abdlhay/Manga_slayer/releases/tag/3.18"
     },
     {
       "id": "mangamello",
@@ -897,7 +893,7 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-11-06T19:13:16.174112+00:00",
+  "updatedAt": "2026-11-14T16:28:22.950940+00:00",
   "premiumPromotion250": {
     "startsAt": 1793990133000,
     "endsAt": 1794249333000
