@@ -2,48 +2,10 @@
   "schemaVersion": 1,
   "store": {
     "name": "ROCKS App",
-    "versionName": "2.5.0",
-    "versionCode": 58
+    "versionName": "2.6.0",
+    "versionCode": 59
   },
   "apps": [
-    {
-      "id": "rocks-drama",
-      "packageName": "com.alam.aldrama3",
-      "versionCode": 35,
-      "versionName": "V4.2",
-      "minSdk": 21,
-      "size": 18505187,
-      "sha256": "585e88ab2a0e09d7d51f1e50af2da7cf261c6dedbbf6fb47116028de7ee7b4f3",
-      "certificateSha256": "de012696395c02a8cf4f4c565f1c4b15ea43ad4599662596fb8f43edae518e42",
-      "icon": "rocks-drama.png",
-      "supportedAbis": [
-        "arm64-v8a",
-        "armeabi",
-        "armeabi-v7a",
-        "x86",
-        "x86_64"
-      ],
-      "category": "apps",
-      "android": "Android 5+",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-drama-v4.2a",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-drama-v4.2a/ROCKS-DRAMA-V4.2a.apk",
-      "name": "ROCKS DRAMA",
-      "subtitle": "روكس دراما",
-      "summary": "التطبيق تحت المراجعة",
-      "description": "التطبيق تحت المراجعة",
-      "badge": "التطبيق تحت المراجعة",
-      "dependencies": [
-        "dwplayer"
-      ],
-      "minStoreVersionCode": 7,
-      "features": [],
-      "changesTitle": "معلومات الإصدار",
-      "changes": [
-        "التطبيق تحت المراجعة"
-      ],
-      "maintenance": true,
-      "maintenanceMessage": "التطبيق تحت المراجعة"
-    },
     {
       "id": "rocks-downloader",
       "name": "ROCKS Downloader",
@@ -556,42 +518,6 @@
       "sourceReleaseUrl": "https://github.com/abdlhay/Manga_slayer/releases/tag/3.18"
     },
     {
-      "id": "mangamello",
-      "packageName": "com.wael.mangamello",
-      "versionCode": 52,
-      "versionName": "3.0.7",
-      "minSdk": 24,
-      "size": 31345111,
-      "sha256": "e77acb8d62f845d8329bf6ff647b032233055c9b32145daf277aec16001eaa9b",
-      "certificateSha256": "ed74011dd9f831a7bbe1dee12c6f42d0be63bc3c5f96b1b59889e8ba38123177",
-      "icon": "mangamello.png",
-      "supportedAbis": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86",
-        "x86_64"
-      ],
-      "format": "xapk",
-      "name": "Mangamello",
-      "subtitle": "مانجا ميلو",
-      "summary": "التطبيق تحت المراجعة",
-      "description": "التطبيق تحت المراجعة",
-      "sourceUrl": "https://apkcombo.com/ar/mangamello-%D9%85%D8%A7%D9%86%D8%AC%D8%A7%D9%85%D9%8A%D9%84%D9%88/com.wael.mangamello/download/apk",
-      "badge": "التطبيق تحت المراجعة",
-      "features": [],
-      "changes": [
-        "التطبيق تحت المراجعة"
-      ],
-      "category": "apps",
-      "android": "Android 7+",
-      "changesTitle": "معلومات النسخة المضافة",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/library-2026-10-05",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/library-2026-10-05/mangamello-3.0.7.xapk",
-      "minStoreVersionCode": 5,
-      "maintenance": true,
-      "maintenanceMessage": "التطبيق تحت المراجعة"
-    },
-    {
       "id": "r4s-coffin",
       "name": "تابوت آندي وليلي",
       "subtitle": "R4S Coffin — النسخة العربية",
@@ -636,38 +562,6 @@
       "paid": true,
       "priceHalala": 2700,
       "purchasePlan": "paid-game"
-    },
-    {
-      "id": "dwplayer",
-      "packageName": "com.dwplayer.app",
-      "versionCode": 9,
-      "versionName": "1.4",
-      "minSdk": 21,
-      "size": 10553485,
-      "sha256": "0e84b087822fcc12d5454b0c4f45724e956cd06bd5f0be6cd2add987a68aa43e",
-      "certificateSha256": "f1ae3cc5ed73f4c18c1e72bcc3ec2a2d441c0800ddc3c605e412de3a5adb6261",
-      "icon": "",
-      "supportedAbis": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86",
-        "x86_64"
-      ],
-      "category": "apps",
-      "android": "Android 5+",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-drama-v4.2a",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-drama-v4.2a/DWPlayer_V1.4.apk",
-      "name": "DWPlayer",
-      "subtitle": "المشغّل المرافق لروكس دراما",
-      "summary": "مطلوب للمشاهدة داخل روكس دراما.",
-      "description": "مشغّل الفيديو المطلوب لروكس دراما، يُنزّل معه ويُثبّت قبل البرنامج بموافقة أندرويد.",
-      "hidden": true,
-      "companionFor": "rocks-drama",
-      "badge": "متطلب المشاهدة",
-      "features": [],
-      "changes": [
-        "نسخة المشغّل الأصلية 1.4."
-      ]
     },
     {
       "id": "rocks-manga",
@@ -792,23 +686,24 @@
       "category": "apps",
       "summary": "تطبيقاتك وألعابك في مكان واحد.",
       "description": "مكتبة روكس للتطبيقات والألعاب، بتنزيل داخل التطبيق وسمات ملونة وصفحات للتحديثات وحول المتجر.",
-      "versionName": "2.5.0",
-      "versionCode": 58,
+      "versionName": "2.6.0",
+      "versionCode": 59,
       "packageName": "com.rocks.app",
       "minSdk": 26,
       "android": "Android 8+",
-      "size": 7832638,
-      "sha256": "60c07b064e2d118cc1355c95c9432962673e8efe1febd3ebbc90b0f2d05c245e",
+      "size": 7839713,
+      "sha256": "fe3920b55bcd46017603c1414aa3fa05b8fff4f7b71558272425651bfa218cad",
       "certificateSha256": "0104df1639b77a23eccccdfd62c1141ad19696ac3afef06cef68945d4b3528b2",
-      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.5.0/ROCKS-App-2.5.0.apk",
-      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.5.0",
+      "downloadUrl": "https://github.com/7fp9/my-apps/releases/download/rocks-app-v2.6.0/ROCKS-App-2.6.0.apk",
+      "releaseUrl": "https://github.com/7fp9/my-apps/releases/tag/rocks-app-v2.6.0",
       "icon": "brand.svg",
       "badge": "مستقرة · تحديث إجباري",
-      "changesTitle": "ما الجديد في إصدار 2.5.0",
+      "changesTitle": "ما الجديد في إصدار 2.6.0",
       "changes": [
-        "اعتماد نواة Rust في الإصدار المستقر لفحص بيانات قائمة التطبيقات وبصمات ملفات التثبيت.",
-        "عرض بريميوم لمدة ثلاثة أيام: شهر بـ5، شهران بـ10، ثلاثة أشهر بـ13، وستة أشهر بـ20 ريالًا. تعود الأسعار الأصلية تلقائيًا بعد انتهاء العرض.",
-        "إضافة ROCKS ANIME WIT إلى التطبيقات المشمولة بباقات بريميوم."
+        "إعادة عرض Prime Video لمدة خمسة أيام: ثلاثة أشهر بـ16 ريالًا وستة أشهر بـ32.25 ريالًا.",
+        "حماية قسم الألعاب المدفوعة برمز خاص للمطور من ثمانية أرقام.",
+        "إزالة روكس دراما ومانجاميلو من المتجر.",
+        "إضافة تنبيه مستمر عن ارتفاع تكاليف التشغيل واحتمال توقف الخدمة خلال أسبوعين إلى ثلاثة أسابيع."
       ],
       "features": [
         {
@@ -820,8 +715,8 @@
           "text": "إيقاف مؤقت واستئناف وإلغاء، ثم تثبيت بموافقتك من خلال أندرويد."
         }
       ],
-      "mandatoryVersionCode": 58,
-      "mandatoryMessage": "حدّث روكس أب إلى الإصدار المستقر 2.5.0 لمتابعة الاستخدام."
+      "mandatoryVersionCode": 59,
+      "mandatoryMessage": "حدّث روكس أب إلى الإصدار المستقر 2.6.0 لمتابعة الاستخدام."
     },
     {
       "id": "wit-anime",
@@ -893,9 +788,13 @@
     "uptodown": false,
     "apkmirror": false
   },
-  "updatedAt": "2026-11-14T16:28:22.950940+00:00",
+  "updatedAt": "2026-11-15T10:04:49.926546+00:00",
   "premiumPromotion250": {
     "startsAt": 1793990133000,
     "endsAt": 1794249333000
+  },
+  "primeOffer260": {
+    "startsAt": 1794737087000,
+    "endsAt": 1795169087000
   }
 }
